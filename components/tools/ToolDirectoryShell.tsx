@@ -167,15 +167,17 @@ export function ToolDirectoryShell({
                 <Link
                   key={item.id}
                   href={`/news/${item.id}`}
-                  className="group rounded-2xl border border-white/10 bg-white/[0.02] px-4 py-3 hover:border-white/20"
+                  className="group rounded-2xl border border-white/10 bg-white/[0.02] px-3 py-2.5 hover:border-white/20 sm:px-4 sm:py-3"
                 >
-                  <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-                    <p className="min-w-0 truncate text-sm font-semibold text-foreground group-hover:text-cyan">
+                  <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:justify-between sm:gap-2">
+                    <p className="min-w-0 line-clamp-2 text-sm font-semibold leading-5 text-foreground group-hover:text-cyan sm:line-clamp-1 sm:leading-normal">
                       {item.headline}
                     </p>
-                    <span className="shrink-0 text-xs uppercase tracking-[0.12em] text-muted">{item.publishedAt}</span>
+                    <span className="shrink-0 text-[11px] uppercase tracking-[0.1em] text-muted sm:text-xs sm:tracking-[0.12em]">
+                      {item.publishedAt}
+                    </span>
                   </div>
-                  <p className="mt-1 line-clamp-2 text-sm text-muted">{item.summary}</p>
+                  <p className="mt-1 line-clamp-2 text-xs leading-5 text-muted sm:text-sm sm:leading-6">{item.summary}</p>
                 </Link>
               ))}
             </div>
