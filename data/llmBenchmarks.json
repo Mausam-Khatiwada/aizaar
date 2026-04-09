@@ -1,0 +1,172 @@
+{
+  "source": {
+    "name": "Arena Leaderboard",
+    "url": "https://arena.ai/leaderboard",
+    "retrievedAt": "2026-04-09",
+    "notes": "Values are from the Overview page snapshots for Text and Code leaderboards."
+  },
+  "textLeaderboard": [
+    {
+      "rank": 1,
+      "model": "claude-opus-4-6-thinking",
+      "provider": "Anthropic",
+      "country": "United States",
+      "score": 1503,
+      "votes": 15493
+    },
+    {
+      "rank": 2,
+      "model": "claude-opus-4-6",
+      "provider": "Anthropic",
+      "country": "United States",
+      "score": 1497,
+      "votes": 16533
+    },
+    {
+      "rank": 3,
+      "model": "gemini-3.1-pro-preview",
+      "provider": "Google",
+      "country": "United States",
+      "score": 1493,
+      "votes": 19482
+    },
+    {
+      "rank": 4,
+      "model": "grok-4.20-beta1",
+      "provider": "xAI",
+      "country": "United States",
+      "score": 1490,
+      "votes": 8341
+    },
+    {
+      "rank": 5,
+      "model": "gemini-3-pro",
+      "provider": "Google",
+      "country": "United States",
+      "score": 1486,
+      "votes": 41615
+    },
+    {
+      "rank": 6,
+      "model": "gpt-5.4-high",
+      "provider": "OpenAI",
+      "country": "United States",
+      "score": 1484,
+      "votes": 8835
+    },
+    {
+      "rank": 7,
+      "model": "grok-4.20-beta-0309-reasoning",
+      "provider": "xAI",
+      "country": "United States",
+      "score": 1480,
+      "votes": 9003
+    },
+    {
+      "rank": 8,
+      "model": "gpt-5.2-chat-latest-20260210",
+      "provider": "OpenAI",
+      "country": "United States",
+      "score": 1477,
+      "votes": 14798
+    },
+    {
+      "rank": 9,
+      "model": "grok-4.20-multi-agent-beta-0309",
+      "provider": "xAI",
+      "country": "United States",
+      "score": 1475,
+      "votes": 9422
+    },
+    {
+      "rank": 10,
+      "model": "gemini-3-flash",
+      "provider": "Google",
+      "country": "United States",
+      "score": 1474,
+      "votes": 30937
+    }
+  ],
+  "codeLeaderboard": [
+    {
+      "rank": 1,
+      "model": "claude-opus-4-6-thinking",
+      "provider": "Anthropic",
+      "country": "United States",
+      "score": 1546,
+      "votes": 3698
+    },
+    {
+      "rank": 2,
+      "model": "claude-opus-4-6",
+      "provider": "Anthropic",
+      "country": "United States",
+      "score": 1543,
+      "votes": 4479
+    },
+    {
+      "rank": 3,
+      "model": "claude-sonnet-4-6",
+      "provider": "Anthropic",
+      "country": "United States",
+      "score": 1521,
+      "votes": 7086
+    },
+    {
+      "rank": 4,
+      "model": "claude-opus-4-5-20251101-thinking-32k",
+      "provider": "Anthropic",
+      "country": "United States",
+      "score": 1491,
+      "votes": 13254
+    },
+    {
+      "rank": 5,
+      "model": "claude-opus-4-5-20251101",
+      "provider": "Anthropic",
+      "country": "United States",
+      "score": 1465,
+      "votes": 14248
+    },
+    {
+      "rank": 6,
+      "model": "gpt-5.4-high (codex-harness)",
+      "provider": "OpenAI",
+      "country": "United States",
+      "score": 1457,
+      "votes": 1495
+    },
+    {
+      "rank": 7,
+      "model": "gemini-3.1-pro-preview",
+      "provider": "Google",
+      "country": "United States",
+      "score": 1456,
+      "votes": 5467
+    },
+    {
+      "rank": 8,
+      "model": "qwen3.6-plus-preview",
+      "provider": "Alibaba",
+      "country": "China",
+      "score": 1454,
+      "votes": 1125
+    },
+    {
+      "rank": 9,
+      "model": "glm-5",
+      "provider": "Zhipu AI",
+      "country": "China",
+      "score": 1441,
+      "votes": 4536
+    },
+    {
+      "rank": 10,
+      "model": "glm-4.7",
+      "provider": "Zhipu AI",
+      "country": "China",
+      "score": 1439,
+      "votes": 4876
+    }
+  ]
+}

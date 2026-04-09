@@ -1,0 +1,327 @@
+﻿[
+    {
+        "id":  "image-generation",
+        "name":  "Image Generation",
+        "icon":  "Sparkles",
+        "emoji":  "ðŸŽ¨",
+        "accent":  "#7C3AED",
+        "accentSoft":  "#A78BFA",
+        "gradient":  "linear-gradient(135deg, #7C3AED, #06B6D4)",
+        "description":  "Create illustrations, product visuals, concept art, and branded assets with AI image engines built for speed and quality.",
+        "heroCopy":  "Find the strongest text-to-image, editing, and style transfer tools for creators, marketers, and design teams.",
+        "subcategories":  [
+                              "text-to-image",
+                              "image-editing",
+                              "brand-assets",
+                              "photorealistic",
+                              "illustration"
+                          ],
+        "toolCount":  18,
+        "featuredTools":  [
+                              "midjourney"
+                          ]
+    },
+    {
+        "id":  "video-generation",
+        "name":  "Video Generation",
+        "icon":  "Clapperboard",
+        "emoji":  "ðŸŽ¬",
+        "accent":  "#06B6D4",
+        "accentSoft":  "#67E8F9",
+        "gradient":  "linear-gradient(135deg, #06B6D4, #3B82F6)",
+        "description":  "Turn prompts, storyboards, and raw clips into polished videos with AI-first editing, generation, and post-production tools.",
+        "heroCopy":  "Browse cinematic video generation, talking-head creation, editing assistants, and short-form automation workflows.",
+        "subcategories":  [
+                              "text-to-video",
+                              "video-editing",
+                              "avatar-video",
+                              "short-form",
+                              "cinematic"
+                          ],
+        "toolCount":  17,
+        "featuredTools":  [
+                              "runway-ml"
+                          ]
+    },
+    {
+        "id":  "music-generation",
+        "name":  "Music Generation",
+        "icon":  "Music4",
+        "emoji":  "ðŸŽµ",
+        "accent":  "#10B981",
+        "accentSoft":  "#6EE7B7",
+        "gradient":  "linear-gradient(135deg, #10B981, #06B6D4)",
+        "description":  "Generate original songs, instrumentals, loops, and royalty-safe soundtracks for content, games, and brand work.",
+        "heroCopy":  "Compare the best AI composers for full songs, backing tracks, ad music, cinematic scoring, and genre experimentation.",
+        "subcategories":  [
+                              "song-generation",
+                              "instrumentals",
+                              "royalty-free",
+                              "soundtracks",
+                              "stem-creation"
+                          ],
+        "toolCount":  13,
+        "featuredTools":  [
+
+                          ]
+    },
+    {
+        "id":  "voice-audio",
+        "name":  "Voice and Audio",
+        "icon":  "Mic2",
+        "emoji":  "ðŸŽ™ï¸",
+        "accent":  "#F43F5E",
+        "accentSoft":  "#FDA4AF",
+        "gradient":  "linear-gradient(135deg, #F43F5E, #7C3AED)",
+        "description":  "Clone voices, narrate scripts, clean recordings, and build speech experiences with premium voice and audio AI platforms.",
+        "heroCopy":  "Explore text-to-speech, dubbing, transcription, expressive speech, and voice design tools built for production teams.",
+        "subcategories":  [
+                              "text-to-speech",
+                              "voice-cloning",
+                              "dubbing",
+                              "transcription",
+                              "audio-cleanup"
+                          ],
+        "toolCount":  12,
+        "featuredTools":  [
+                              "elevenlabs"
+                          ]
+    },
+    {
+        "id":  "music-video",
+        "name":  "Music Video",
+        "icon":  "Disc3",
+        "emoji":  "ðŸ’¿",
+        "accent":  "#F59E0B",
+        "accentSoft":  "#FCD34D",
+        "gradient":  "linear-gradient(135deg, #F59E0B, #F43F5E)",
+        "description":  "Build reactive visuals, lyric videos, and stylized music-first storytelling using AI music video platforms.",
+        "heroCopy":  "From audio-reactive visuals to performance avatars, these tools help artists turn songs into scroll-stopping videos fast.",
+        "subcategories":  [
+                              "audio-reactive",
+                              "lyric-video",
+                              "music-promo",
+                              "visualizer"
+                          ],
+        "toolCount":  4,
+        "featuredTools":  [
+
+                          ]
+    },
+    {
+        "id":  "presentation",
+        "name":  "Presentation",
+        "icon":  "Presentation",
+        "emoji":  "ðŸ“Š",
+        "accent":  "#3B82F6",
+        "accentSoft":  "#93C5FD",
+        "gradient":  "linear-gradient(135deg, #3B82F6, #06B6D4)",
+        "description":  "Generate decks, sales narratives, and executive-ready slides with AI tools that make presentations clearer and faster.",
+        "heroCopy":  "Compare slide builders for founders, consultants, educators, and teams who want presentation polish without design overhead.",
+        "subcategories":  [
+                              "pitch-decks",
+                              "sales-presentations",
+                              "education",
+                              "meeting-briefs"
+                          ],
+        "toolCount":  7,
+        "featuredTools":  [
+                              "gamma"
+                          ]
+    },
+    {
+        "id":  "writing-content",
+        "name":  "Writing and Content",
+        "icon":  "PenSquare",
+        "emoji":  "âœï¸",
+        "accent":  "#8B5CF6",
+        "accentSoft":  "#C4B5FD",
+        "gradient":  "linear-gradient(135deg, #8B5CF6, #06B6D4)",
+        "description":  "Research, draft, rewrite, edit, and scale written content with AI assistants built for marketers, teams, and solo creators.",
+        "heroCopy":  "Find the best writing copilots for blogs, landing pages, email, brainstorming, editing, and long-form ideation.",
+        "subcategories":  [
+                              "general-assistant",
+                              "copywriting",
+                              "editing",
+                              "long-form",
+                              "productivity-writing"
+                          ],
+        "toolCount":  21,
+        "featuredTools":  [
+                              "deepseek"
+                          ]
+    },
+    {
+        "id":  "coding-development",
+        "name":  "Coding and Development",
+        "icon":  "Code2",
+        "emoji":  "ðŸ’»",
+        "accent":  "#22C55E",
+        "accentSoft":  "#86EFAC",
+        "gradient":  "linear-gradient(135deg, #22C55E, #06B6D4)",
+        "description":  "Ship faster with AI coding tools for autocomplete, refactoring, multi-file changes, prototyping, and agentic development.",
+        "heroCopy":  "Explore the strongest developer copilots for IDE coding, full-stack generation, debugging, and autonomous workflows.",
+        "subcategories":  [
+                              "coding-assistant",
+                              "full-stack-builder",
+                              "autocomplete",
+                              "agentic-dev",
+                              "prototyping"
+                          ],
+        "toolCount":  17,
+        "featuredTools":  [
+                              "cursor",
+                              "deepseek"
+                          ]
+    },
+    {
+        "id":  "design-creative",
+        "name":  "Design and Creative",
+        "icon":  "Palette",
+        "emoji":  "ðŸª„",
+        "accent":  "#EC4899",
+        "accentSoft":  "#F9A8D4",
+        "gradient":  "linear-gradient(135deg, #EC4899, #7C3AED)",
+        "description":  "Build brands, mockups, interfaces, and creative assets with AI tools that augment visual design workflows end to end.",
+        "heroCopy":  "Browse AI design tools for brand identity, UI wireframing, image cleanup, motion ideas, and creative experimentation.",
+        "subcategories":  [
+                              "brand-design",
+                              "ui-ux",
+                              "creative-assistant",
+                              "asset-creation",
+                              "mockups"
+                          ],
+        "toolCount":  11,
+        "featuredTools":  [
+
+                          ]
+    },
+    {
+        "id":  "ai-avatars",
+        "name":  "AI Avatars",
+        "icon":  "UserRound",
+        "emoji":  "ðŸ§‘â€ðŸŽ¤",
+        "accent":  "#14B8A6",
+        "accentSoft":  "#5EEAD4",
+        "gradient":  "linear-gradient(135deg, #14B8A6, #3B82F6)",
+        "description":  "Create spokesperson videos, training content, and presenter-led assets with avatar-first AI production platforms.",
+        "heroCopy":  "Compare AI avatar tools for product demos, learning content, sales outreach, and multilingual video delivery.",
+        "subcategories":  [
+                              "talking-avatar",
+                              "training-video",
+                              "ugc-style",
+                              "presenter-video"
+                          ],
+        "toolCount":  6,
+        "featuredTools":  [
+
+                          ]
+    },
+    {
+        "id":  "research",
+        "name":  "Research",
+        "icon":  "SearchCode",
+        "emoji":  "ðŸ”Ž",
+        "accent":  "#06B6D4",
+        "accentSoft":  "#A5F3FC",
+        "gradient":  "linear-gradient(135deg, #06B6D4, #14B8A6)",
+        "description":  "Answer faster, synthesize sources, and explore topics with AI research tools that surface insight instead of noise.",
+        "heroCopy":  "These tools help students, analysts, founders, and operators search smarter, summarize sources, and validate decisions.",
+        "subcategories":  [
+                              "research-assistant",
+                              "search-engine",
+                              "knowledge-synthesis",
+                              "source-citations"
+                          ],
+        "toolCount":  15,
+        "featuredTools":  [
+                              "perplexity-ai",
+                              "deepseek"
+                          ]
+    },
+    {
+        "id":  "productivity",
+        "name":  "Productivity",
+        "icon":  "Clock3",
+        "emoji":  "âš¡",
+        "accent":  "#84CC16",
+        "accentSoft":  "#BEF264",
+        "gradient":  "linear-gradient(135deg, #84CC16, #10B981)",
+        "description":  "Capture meetings, organize notes, automate busywork, and stay on top of work with AI productivity companions.",
+        "heroCopy":  "From AI meeting notes to workflow copilots, these tools help operators, teams, and founders move faster every day.",
+        "subcategories":  [
+                              "meeting-assistant",
+                              "note-taking",
+                              "workflow",
+                              "task-management",
+                              "office-copilot"
+                          ],
+        "toolCount":  8,
+        "featuredTools":  [
+
+                          ]
+    },
+    {
+        "id":  "3d-generation",
+        "name":  "3D Generation",
+        "icon":  "Box",
+        "emoji":  "ðŸ§Š",
+        "accent":  "#60A5FA",
+        "accentSoft":  "#BFDBFE",
+        "gradient":  "linear-gradient(135deg, #60A5FA, #7C3AED)",
+        "description":  "Turn prompts, images, and sketches into 3D models, scenes, and assets for games, commerce, and product design.",
+        "heroCopy":  "Discover the best AI 3D tools for modeling, texturing, scene ideation, and production-ready asset generation.",
+        "subcategories":  [
+                              "text-to-3d",
+                              "3d-modeling",
+                              "asset-generation",
+                              "scene-design"
+                          ],
+        "toolCount":  5,
+        "featuredTools":  [
+
+                          ]
+    },
+    {
+        "id":  "seo-marketing",
+        "name":  "SEO and Marketing",
+        "icon":  "TrendingUp",
+        "emoji":  "ðŸ“ˆ",
+        "accent":  "#FB7185",
+        "accentSoft":  "#FDA4AF",
+        "gradient":  "linear-gradient(135deg, #FB7185, #F59E0B)",
+        "description":  "Plan keywords, optimize pages, and publish smarter content with AI-enhanced SEO and content strategy platforms.",
+        "heroCopy":  "Use these tools to improve rankings, content briefs, topical coverage, and search-led editorial workflows.",
+        "subcategories":  [
+                              "keyword-research",
+                              "content-briefs",
+                              "on-page-seo",
+                              "content-strategy"
+                          ],
+        "toolCount":  7,
+        "featuredTools":  [
+
+                          ]
+    },
+    {
+        "id":  "social-media",
+        "name":  "Social Media",
+        "icon":  "MessagesSquare",
+        "emoji":  "ðŸ“±",
+        "accent":  "#F97316",
+        "accentSoft":  "#FDBA74",
+        "gradient":  "linear-gradient(135deg, #F97316, #EC4899)",
+        "description":  "Plan, generate, schedule, and repurpose social content with AI tools made for creators, agencies, and modern brands.",
+        "heroCopy":  "Compare AI social platforms for scheduling, post generation, repurposing, thought leadership, and growth workflows.",
+        "subcategories":  [
+                              "scheduling",
+                              "repurposing",
+                              "thought-leadership",
+                              "content-calendar"
+                          ],
+        "toolCount":  7,
+        "featuredTools":  [
+
+                          ]
+    }
+]

@@ -1,0 +1,1063 @@
+﻿[
+    {
+        "id":  "anthropic-project-glasswing-launch",
+        "headline":  "Anthropic Launches Project Glasswing with Claude Mythos Preview",
+        "summary":  "On April 7, 2026, Anthropic announced Project Glasswing, a cybersecurity initiative using Claude Mythos Preview with launch partners including AWS, Apple, Google, Microsoft, and the Linux Foundation.",
+        "tool":  "claude-mythos-preview",
+        "category":  "launch",
+        "source":  "https://www.anthropic.com/glasswing",
+        "publishedAt":  "2026-04-07",
+        "featured":  true,
+        "tags":  [
+                     "anthropic",
+                     "cybersecurity",
+                     "project-glasswing"
+                 ]
+    },
+    {
+        "id":  "claude-mythos-preview-cybersecurity-assessment",
+        "headline":  "Anthropic Publishes Technical Assessment of Claude Mythos Preview",
+        "summary":  "Anthropic\u0027s Red Team report details Claude Mythos Preview\u0027s cybersecurity performance and states that Mythos Preview is not planned for general availability at this stage.",
+        "tool":  "claude-mythos-preview",
+        "category":  "research",
+        "source":  "https://red.anthropic.com/2026/mythos-preview/",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "anthropic",
+                     "security-research",
+                     "model-safety"
+                 ]
+    },
+    {
+        "id":  "deepseek-reasoning-suite-enterprise",
+        "headline":  "DeepSeek Expands Reasoning Suite with Enterprise Guardrails",
+        "summary":  "DeepSeek rolled out enterprise policy controls, reasoning trace modes, and team-level prompt governance. The update targets large engineering orgs that need speed without losing auditability.",
+        "tool":  "deepseek",
+        "category":  "update",
+        "source":  "https://www.deepseek.com",
+        "publishedAt":  "2026-04-09",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "reasoning",
+                     "enterprise"
+                 ]
+    },
+    {
+        "id":  "qwen-chat-multimodal-workspaces",
+        "headline":  "Qwen Chat Adds Multimodal Workspaces for Product and Dev Teams",
+        "summary":  "Alibaba\u0027s Qwen Chat now supports shared multimodal workspaces combining text, image, and code context. Teams can manage larger projects with less context switching.",
+        "tool":  "qwen-chat",
+        "category":  "launch",
+        "source":  "https://chat.qwen.ai",
+        "publishedAt":  "2026-04-09",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "multimodal",
+                     "collaboration"
+                 ]
+    },
+    {
+        "id":  "kimi-k2-long-context-upgrade",
+        "headline":  "Kimi Introduces K2 Long-Context Upgrade for Research Teams",
+        "summary":  "Moonshot AI upgraded Kimi with larger context handling and faster document traversal for analyst workflows. The release is aimed at teams doing heavy report synthesis and market intelligence.",
+        "tool":  "kimi",
+        "category":  "update",
+        "source":  "https://kimi.moonshot.cn",
+        "publishedAt":  "2026-04-08",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "research",
+                     "long-context"
+                 ]
+    },
+    {
+        "id":  "doubao-team-workflow-studio",
+        "headline":  "Doubao Launches Team Workflow Studio for Content and Ops",
+        "summary":  "ByteDance\u0027s Doubao added workflow templates, approval paths, and task handoffs for team usage. The feature is designed to help freelancers and agencies standardize repeatable AI tasks.",
+        "tool":  "doubao",
+        "category":  "launch",
+        "source":  "https://www.doubao.com",
+        "publishedAt":  "2026-04-08",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "workflow",
+                     "productivity"
+                 ]
+    },
+    {
+        "id":  "ernie-bot-agent-api-release",
+        "headline":  "ERNIE Bot Rolls Out Agent API for Search-Grounded Automations",
+        "summary":  "Baidu announced agent APIs for ERNIE Bot with retrieval and citation controls for enterprise use cases. Teams can orchestrate search-grounded assistants with more governance options.",
+        "tool":  "ernie-bot",
+        "category":  "launch",
+        "source":  "https://yiyan.baidu.com",
+        "publishedAt":  "2026-04-08",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "api",
+                     "enterprise"
+                 ]
+    },
+    {
+        "id":  "hailuo-ai-director-controls",
+        "headline":  "Hailuo AI Adds Director Controls for Shot-to-Shot Consistency",
+        "summary":  "Hailuo AI released new camera path and transition controls to maintain visual continuity across generated scenes. Creators can produce campaign-ready videos with fewer manual edits.",
+        "tool":  "hailuo-ai",
+        "category":  "update",
+        "source":  "https://hailuoai.com",
+        "publishedAt":  "2026-04-08",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "video",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "jimeng-ai-brand-style-kits",
+        "headline":  "Jimeng AI Launches Brand Style Kits for Creative Teams",
+        "summary":  "Jimeng AI introduced reusable style packs for typography, palette, and composition preferences. Marketing teams can now generate consistent social assets at higher volume.",
+        "tool":  "jimeng-ai",
+        "category":  "update",
+        "source":  "https://jimeng.jianying.com",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "design",
+                     "brand-assets"
+                 ]
+    },
+    {
+        "id":  "mistral-le-chat-apac-partner-expansion",
+        "headline":  "Mistral Le Chat Expands APAC Partnerships for Enterprise Rollouts",
+        "summary":  "Mistral announced new APAC deployment partnerships for Le Chat, with a focus on regulated industries and multilingual support. The move signals stronger competition in enterprise AI outside the US.",
+        "tool":  "mistral-le-chat",
+        "category":  "funding",
+        "source":  "https://mistral.ai",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "france",
+                     "enterprise",
+                     "expansion"
+                 ]
+    },
+    {
+        "id":  "cohere-command-governance-suite",
+        "headline":  "Cohere Command Ships Governance Suite for Regulated Teams",
+        "summary":  "Cohere launched policy enforcement, PII safeguards, and response traceability for Command deployments. The update is targeted at financial, healthcare, and public-sector teams.",
+        "tool":  "cohere-command",
+        "category":  "update",
+        "source":  "https://cohere.com",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "canada",
+                     "governance",
+                     "enterprise"
+                 ]
+    },
+    {
+        "id":  "hyperclova-x-business-workflow-suite",
+        "headline":  "HyperCLOVA X Launches Business Workflow Suite for Korean Enterprises",
+        "summary":  "Naver added workflow automation and knowledge connectors to HyperCLOVA X for enterprise collaboration. Early adopters highlight stronger Korean-language output for internal ops.",
+        "tool":  "hyperclova-x",
+        "category":  "launch",
+        "source":  "https://clova-x.naver.com",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "south-korea",
+                     "productivity",
+                     "enterprise"
+                 ]
+    },
+    {
+        "id":  "yandexgpt-enterprise-assistant-upgrade",
+        "headline":  "YandexGPT Upgrades Enterprise Assistant with Better Tool Routing",
+        "summary":  "YandexGPT introduced improved tool routing and language adaptation for business assistants in regional deployments. Teams can now build localized support and ops bots more reliably.",
+        "tool":  "yandexgpt",
+        "category":  "update",
+        "source":  "https://yandex.cloud/en/services/yandexgpt",
+        "publishedAt":  "2026-04-06",
+        "featured":  false,
+        "tags":  [
+                     "russia",
+                     "enterprise",
+                     "assistant"
+                 ]
+    },
+    {
+        "id":  "aleph-alpha-sovereign-ai-stack",
+        "headline":  "Aleph Alpha Expands Sovereign AI Stack for EU-Regulated Workloads",
+        "summary":  "Aleph Alpha launched additional sovereign deployment options and policy controls aimed at highly regulated environments. The update strengthens Europe\u0027s enterprise AI alternatives.",
+        "tool":  "aleph-alpha",
+        "category":  "research",
+        "source":  "https://aleph-alpha.com",
+        "publishedAt":  "2026-04-06",
+        "featured":  false,
+        "tags":  [
+                     "germany",
+                     "sovereign-ai",
+                     "compliance"
+                 ]
+    },
+    {
+        "id":  "moonshot-ai-new-funding-round",
+        "headline":  "Moonshot AI Secures New Funding to Scale Kimi Globally",
+        "summary":  "Moonshot AI announced a fresh funding round to accelerate Kimi\u0027s global expansion and enterprise capabilities. Analysts expect stronger competition in long-context assistant workflows.",
+        "tool":  "kimi",
+        "category":  "funding",
+        "source":  "https://kimi.moonshot.cn",
+        "publishedAt":  "2026-04-05",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "funding",
+                     "expansion"
+                 ]
+    },
+    {
+        "id":  "tencent-yuanbao-plugin-open-beta",
+        "headline":  "Tencent Yuanbao Opens Plugin Beta for Third-Party Integrations",
+        "summary":  "Tencent opened a plugin beta for Yuanbao to support external workflows, productivity actions, and commerce experiences. The move pushes China\u0027s assistant ecosystem toward platform-level competition.",
+        "tool":  null,
+        "category":  "launch",
+        "source":  "https://www.tencent.com",
+        "publishedAt":  "2026-04-05",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "platform",
+                     "plugins"
+                 ]
+    },
+    {
+        "id":  "baidu-wenxin-video-agent-updates",
+        "headline":  "Baidu Shares Wenxin Video Agent Updates for Marketing Workflows",
+        "summary":  "Baidu previewed new video-agent capabilities for brand teams using Wenxin and ERNIE services. The update focuses on campaign batching, localization, and asset consistency.",
+        "tool":  "ernie-bot",
+        "category":  "research",
+        "source":  "https://www.baidu.com",
+        "publishedAt":  "2026-04-04",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "video",
+                     "research"
+                 ]
+    },
+    {
+        "id":  "deepseek-open-agent-kit",
+        "headline":  "DeepSeek Releases Open Agent Kit for Developer Automation",
+        "summary":  "DeepSeek announced an open toolkit for building and evaluating multi-step agent workflows. Developers can prototype automations faster with configurable tool-calling templates.",
+        "tool":  "deepseek",
+        "category":  "launch",
+        "source":  "https://www.deepseek.com",
+        "publishedAt":  "2026-04-04",
+        "featured":  false,
+        "tags":  [
+                     "china",
+                     "developers",
+                     "agents"
+                 ]
+    },
+    {
+        "id":  "sora-scene-consistency-controls",
+        "headline":  "Sora Adds Scene Consistency Controls for Multi-Shot Campaign Work",
+        "summary":  "Sora introduced sequence-level controls to keep character style and motion language consistent across multiple generated shots. The update is geared toward commercial teams producing ad variants at speed.",
+        "tool":  "sora",
+        "category":  "launch",
+        "source":  "https://openai.com",
+        "publishedAt":  "2026-04-09",
+        "featured":  true,
+        "tags":  [
+                     "video",
+                     "production",
+                     "launch"
+                 ]
+    },
+    {
+        "id":  "gpt-image-api-batch-editing",
+        "headline":  "GPT Image API Rolls Out Batch Editing and Brand Style Presets",
+        "summary":  "OpenAI expanded GPT Image workflows with batch editing endpoints and reusable style presets for teams. Creative operators can now standardize visual outputs across campaign asset sets.",
+        "tool":  "gpt-image",
+        "category":  "update",
+        "source":  "https://openai.com",
+        "publishedAt":  "2026-04-09",
+        "featured":  false,
+        "tags":  [
+                     "image-generation",
+                     "api",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "github-copilot-workspace-agents",
+        "headline":  "GitHub Copilot Adds Workspace Agents for Multi-File Refactors",
+        "summary":  "GitHub Copilot launched workspace agents that plan and apply coordinated changes across multiple files with safer review checkpoints. Teams can now ship larger updates with better traceability.",
+        "tool":  "github-copilot",
+        "category":  "update",
+        "source":  "https://github.blog",
+        "publishedAt":  "2026-04-09",
+        "featured":  false,
+        "tags":  [
+                     "coding",
+                     "agents",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "windsurf-branch-context-memory",
+        "headline":  "Windsurf Ships Branch-Aware Context Memory for Long Coding Sessions",
+        "summary":  "Windsurf now preserves branch-level context and intent trails so developers can resume complex tasks without restarting prompts. The feature targets fast-moving teams working across multiple features.",
+        "tool":  "windsurf",
+        "category":  "launch",
+        "source":  "https://codeium.com",
+        "publishedAt":  "2026-04-09",
+        "featured":  false,
+        "tags":  [
+                     "coding",
+                     "ide",
+                     "memory"
+                 ]
+    },
+    {
+        "id":  "lovable-production-monitoring",
+        "headline":  "Lovable Adds Production Monitoring Blocks and Deployment Health Checks",
+        "summary":  "Lovable introduced built-in monitoring blocks and health checks so no-code teams can catch performance regressions earlier. Builders can now move from prototype to production with fewer external tools.",
+        "tool":  "lovable",
+        "category":  "launch",
+        "source":  "https://lovable.dev",
+        "publishedAt":  "2026-04-08",
+        "featured":  false,
+        "tags":  [
+                     "app-builder",
+                     "launch",
+                     "ops"
+                 ]
+    },
+    {
+        "id":  "ideogram-v3-typography-control",
+        "headline":  "Ideogram Improves Typography Control with New Layout and Kerning Sliders",
+        "summary":  "Ideogram rolled out a typography-focused update that gives creators finer control over spacing, alignment, and legibility. This is especially useful for social creatives producing text-heavy visuals.",
+        "tool":  "ideogram",
+        "category":  "update",
+        "source":  "https://ideogram.ai",
+        "publishedAt":  "2026-04-08",
+        "featured":  false,
+        "tags":  [
+                     "image-generation",
+                     "design",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "figma-ai-design-system-audits",
+        "headline":  "Figma AI Introduces Design System Audit Suggestions for Product Teams",
+        "summary":  "Figma AI now flags inconsistent components, spacing drift, and token mismatches in design files. Teams can tighten UI consistency before handoff and reduce front-end rework.",
+        "tool":  "figma-ai",
+        "category":  "update",
+        "source":  "https://www.figma.com",
+        "publishedAt":  "2026-04-08",
+        "featured":  false,
+        "tags":  [
+                     "design",
+                     "ui",
+                     "productivity"
+                 ]
+    },
+    {
+        "id":  "higgsfield-director-mode",
+        "headline":  "Higgsfield Launches Director Mode for Cinematic Motion Planning",
+        "summary":  "Higgsfield released Director Mode with shot planning controls for camera motion, pacing, and transitions. The update helps creators produce story-driven sequences with fewer iterations.",
+        "tool":  "higgsfield",
+        "category":  "launch",
+        "source":  "https://higgsfield.ai",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "video",
+                     "motion",
+                     "launch"
+                 ]
+    },
+    {
+        "id":  "wavespeedai-lyric-sync-timeline",
+        "headline":  "WaveSpeedAI Adds Lyric-Sync Timeline for Faster Music Video Editing",
+        "summary":  "WaveSpeedAI launched a lyric-sync timeline that aligns text beats with generated visuals. Musicians and creators can now produce social-ready clips with less manual timing work.",
+        "tool":  "wavespeedai",
+        "category":  "update",
+        "source":  "https://wavespeed.ai",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "music-video",
+                     "editing",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "taskade-ai-agent-marketplace",
+        "headline":  "Taskade AI Opens Agent Marketplace for Team Workflow Templates",
+        "summary":  "Taskade introduced an agent marketplace where teams can install workflow templates for sales, operations, and content. The goal is faster setup of practical AI workflows for small businesses.",
+        "tool":  "taskade-ai",
+        "category":  "launch",
+        "source":  "https://www.taskade.com",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "productivity",
+                     "agents",
+                     "launch"
+                 ]
+    },
+    {
+        "id":  "surfer-seo-live-intent-audit",
+        "headline":  "Surfer SEO Rolls Out Live Search Intent Audits for Content Teams",
+        "summary":  "Surfer SEO now provides live intent audits that flag mismatch risk as teams write and optimize articles. This reduces wasted effort on pages unlikely to satisfy target SERPs.",
+        "tool":  "surfer-seo",
+        "category":  "update",
+        "source":  "https://surferseo.com",
+        "publishedAt":  "2026-04-06",
+        "featured":  false,
+        "tags":  [
+                     "seo",
+                     "content",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "meshy-ai-auto-rig-pipeline",
+        "headline":  "Meshy AI Launches Auto-Rig Pipeline for Faster Character Export",
+        "summary":  "Meshy AI released automatic rigging for character assets with cleaner game engine export presets. Indie studios can now accelerate concept-to-prototype timelines for animated scenes.",
+        "tool":  "meshy-ai",
+        "category":  "launch",
+        "source":  "https://www.meshy.ai",
+        "publishedAt":  "2026-04-06",
+        "featured":  false,
+        "tags":  [
+                     "3d",
+                     "animation",
+                     "launch"
+                 ]
+    },
+    {
+        "id":  "luma-ai-3d-scene-relight",
+        "headline":  "Luma AI 3D Adds Scene Relighting Controls for Product Showcases",
+        "summary":  "Luma AI 3D introduced relighting controls that let teams adjust mood and highlights after generation. This helps e-commerce creators produce polished assets without reshooting.",
+        "tool":  "luma-ai-3d",
+        "category":  "research",
+        "source":  "https://lumalabs.ai",
+        "publishedAt":  "2026-04-06",
+        "featured":  false,
+        "tags":  [
+                     "3d",
+                     "rendering",
+                     "research"
+                 ]
+    },
+    {
+        "id":  "heygen-instant-persona-campaigns",
+        "headline":  "HeyGen Launches Instant Persona Campaigns for Regional Marketing",
+        "summary":  "HeyGen added persona presets and localization controls for short campaign videos across multiple markets. Agencies can quickly build variants tailored for region-specific messaging.",
+        "tool":  "heygen",
+        "category":  "update",
+        "source":  "https://www.heygen.com",
+        "publishedAt":  "2026-04-05",
+        "featured":  false,
+        "tags":  [
+                     "avatars",
+                     "marketing",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "synthesia-compliance-review-workflows",
+        "headline":  "Synthesia Adds Compliance Review Workflows for Regulated Teams",
+        "summary":  "Synthesia launched approval workflows with policy checkpoints before final export. This gives enterprise teams better governance for training and customer communication videos.",
+        "tool":  "synthesia",
+        "category":  "update",
+        "source":  "https://www.synthesia.io",
+        "publishedAt":  "2026-04-05",
+        "featured":  false,
+        "tags":  [
+                     "avatars",
+                     "enterprise",
+                     "compliance"
+                 ]
+    },
+    {
+        "id":  "udio-structured-arranger-v2",
+        "headline":  "Udio Releases Structured Arranger v2 for Better Song Composition Control",
+        "summary":  "Udio rolled out an arranger update with clearer section control across intro, hook, bridge, and outro. Musicians can iterate faster while preserving the original creative direction.",
+        "tool":  "udio",
+        "category":  "launch",
+        "source":  "https://www.udio.com",
+        "publishedAt":  "2026-04-04",
+        "featured":  false,
+        "tags":  [
+                     "music",
+                     "composition",
+                     "launch"
+                 ]
+    },
+    {
+        "id":  "boltnew-database-recipes",
+        "headline":  "Bolt.new Adds Database Recipes for SaaS and Marketplace Starters",
+        "summary":  "Bolt.new introduced starter recipes for common schemas like subscriptions, directories, and user profiles. Founders can get to a usable MVP faster with less manual setup.",
+        "tool":  "boltnew",
+        "category":  "update",
+        "source":  "https://bolt.new",
+        "publishedAt":  "2026-04-04",
+        "featured":  false,
+        "tags":  [
+                     "app-builder",
+                     "database",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "recraft-brand-guideline-mode",
+        "headline":  "Recraft Launches Brand Guideline Mode for Consistent Creative Outputs",
+        "summary":  "Recraft introduced a mode that anchors generation to brand color, tone, and composition preferences. Teams can maintain visual consistency while still exploring creative options.",
+        "tool":  "recraft",
+        "category":  "update",
+        "source":  "https://www.recraft.ai",
+        "publishedAt":  "2026-04-03",
+        "featured":  false,
+        "tags":  [
+                     "design",
+                     "branding",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "perplexity-collections-for-teams",
+        "headline":  "Perplexity Adds Team Collections to Organize Ongoing Research Threads",
+        "summary":  "Perplexity launched shared collections for saving research threads, sources, and follow-up prompts by project. This improves collaboration for teams running continuous competitive research.",
+        "tool":  "perplexity-ai",
+        "category":  "update",
+        "source":  "https://www.perplexity.ai",
+        "publishedAt":  "2026-04-03",
+        "featured":  false,
+        "tags":  [
+                     "research",
+                     "collaboration",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "freepik-ai-campaign-bundles",
+        "headline":  "Freepik AI Debuts Campaign Bundles for Multi-Format Ad Creatives",
+        "summary":  "Freepik AI launched campaign bundles that generate coordinated assets for display, social, and stories in one flow. Marketers can produce consistent packs for faster launch cycles.",
+        "tool":  "freepik",
+        "category":  "launch",
+        "source":  "https://www.freepik.com",
+        "publishedAt":  "2026-04-02",
+        "featured":  false,
+        "tags":  [
+                     "design",
+                     "assets",
+                     "launch"
+                 ]
+    },
+    {
+        "id":  "gamma-live-data-cards",
+        "headline":  "Gamma Adds Live Data Cards for Auto-Updating Pitch Deck Metrics",
+        "summary":  "Gamma now supports live data cards that sync KPIs into presentations without manual refresh. Teams can keep stakeholder updates current while reducing deck maintenance overhead.",
+        "tool":  "gamma",
+        "category":  "update",
+        "source":  "https://gamma.app",
+        "publishedAt":  "2026-04-02",
+        "featured":  false,
+        "tags":  [
+                     "presentations",
+                     "data",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "otterai-meeting-action-agents",
+        "headline":  "Otter.ai Rolls Out Meeting Action Agents for Follow-Up Automation",
+        "summary":  "Otter.ai released action agents that transform meeting notes into assigned tasks and follow-up summaries. Teams can close the gap between conversation and execution more reliably.",
+        "tool":  "otterai",
+        "category":  "update",
+        "source":  "https://otter.ai",
+        "publishedAt":  "2026-04-01",
+        "featured":  false,
+        "tags":  [
+                     "productivity",
+                     "meetings",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "cursor-agent-mode-team-policies",
+        "headline":  "Cursor Ships Agent Mode Policies for Team Repositories",
+        "summary":  "Cursor added policy controls so teams can define guardrails for AI-assisted edits in shared repositories. The release targets engineering orgs balancing speed with review discipline.",
+        "tool":  "cursor",
+        "category":  "update",
+        "source":  "https://cursor.com",
+        "publishedAt":  "2026-04-08",
+        "featured":  false,
+        "tags":  [
+                     "coding",
+                     "team-workflows",
+                     "governance"
+                 ]
+    },
+    {
+        "id":  "claude-enterprise-memory-controls",
+        "headline":  "Claude Introduces Enterprise Memory Controls and Role Scopes",
+        "summary":  "Anthropic announced memory controls that let enterprise teams scope persistent context by workspace and user role. The change is designed to reduce accidental context bleed in regulated environments.",
+        "tool":  "claude",
+        "category":  "research",
+        "source":  "https://www.anthropic.com",
+        "publishedAt":  "2026-04-08",
+        "featured":  false,
+        "tags":  [
+                     "llm",
+                     "enterprise",
+                     "security"
+                 ]
+    },
+    {
+        "id":  "chatgpt-workspace-connectors-rollout",
+        "headline":  "ChatGPT Workspace Connectors Expand with Analytics and Docs Sources",
+        "summary":  "ChatGPT workspace connectors now support additional analytics and documentation sources to improve business context retrieval. Teams can run faster planning and reporting loops without manual copy-paste.",
+        "tool":  "chatgpt",
+        "category":  "launch",
+        "source":  "https://openai.com",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "llm",
+                     "productivity",
+                     "connectors"
+                 ]
+    },
+    {
+        "id":  "runway-style-lock-brand-kits",
+        "headline":  "Runway Adds Brand Kit Style Lock for Repeatable Video Outputs",
+        "summary":  "Runway released brand kit style lock to preserve palette, typography mood, and visual tone across generations. This is especially useful for agencies creating large campaign batches.",
+        "tool":  "runway-ml",
+        "category":  "update",
+        "source":  "https://runwayml.com",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "video",
+                     "brand",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "elevenlabs-real-time-dubbing-asia",
+        "headline":  "ElevenLabs Launches Real-Time Dubbing for More South Asian Languages",
+        "summary":  "ElevenLabs expanded real-time dubbing coverage with stronger support for additional South Asian language workflows. Creators can localize videos faster for regional audiences.",
+        "tool":  "elevenlabs",
+        "category":  "launch",
+        "source":  "https://elevenlabs.io",
+        "publishedAt":  "2026-04-07",
+        "featured":  false,
+        "tags":  [
+                     "voice",
+                     "localization",
+                     "launch"
+                 ]
+    },
+    {
+        "id":  "gemini-devtools-extension-update",
+        "headline":  "Gemini Developer Extension Adds Debug Sessions and Context Pins",
+        "summary":  "Gemini\u0027s developer tooling added persistent context pins and guided debug sessions for iterative coding workflows. The update focuses on reducing context resets during longer tasks.",
+        "tool":  "gemini",
+        "category":  "update",
+        "source":  "https://blog.google",
+        "publishedAt":  "2026-04-06",
+        "featured":  false,
+        "tags":  [
+                     "coding",
+                     "developer-tools",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "notebooklm-team-spaces",
+        "headline":  "NotebookLM Adds Team Project Spaces for Shared Research Packs",
+        "summary":  "NotebookLM introduced shared project spaces so teams can organize sources, notes, and AI summaries in one place. The feature is intended for research-heavy product and content teams.",
+        "tool":  "notebooklm",
+        "category":  "update",
+        "source":  "https://blog.google",
+        "publishedAt":  "2026-04-06",
+        "featured":  false,
+        "tags":  [
+                     "research",
+                     "collaboration",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "v0-production-export-templates",
+        "headline":  "v0 Introduces Production Export Templates for Design-to-Code Handoffs",
+        "summary":  "v0 launched export templates aimed at improving handoffs from generated UI to production-ready implementation. Teams can apply consistent project scaffolds with fewer manual setup steps.",
+        "tool":  "v0",
+        "category":  "launch",
+        "source":  "https://v0.dev",
+        "publishedAt":  "2026-04-05",
+        "featured":  false,
+        "tags":  [
+                     "coding",
+                     "ui",
+                     "launch"
+                 ]
+    },
+    {
+        "id":  "replit-ai-deployment-guardrails",
+        "headline":  "Replit AI Adds Deployment Guardrails and Rollback Suggestions",
+        "summary":  "Replit AI now suggests deployment guardrails and rollback plans when generating app changes. The update targets builders shipping quickly without sacrificing operational safety.",
+        "tool":  "replit-ai",
+        "category":  "update",
+        "source":  "https://replit.com",
+        "publishedAt":  "2026-04-05",
+        "featured":  false,
+        "tags":  [
+                     "coding",
+                     "deployment",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "canva-ai-brief-to-design",
+        "headline":  "Canva AI Launches Brief-to-Design Workflow for Campaign Teams",
+        "summary":  "Canva AI released a brief-to-design flow that turns campaign inputs into first-draft assets with reusable brand settings. Marketing teams can move from planning to visuals in fewer steps.",
+        "tool":  "canva-ai",
+        "category":  "launch",
+        "source":  "https://www.canva.com",
+        "publishedAt":  "2026-04-04",
+        "featured":  false,
+        "tags":  [
+                     "design",
+                     "marketing",
+                     "launch"
+                 ]
+    },
+    {
+        "id":  "midjourney-character-reference-20",
+        "headline":  "Midjourney Upgrades Character Reference System for Story Consistency",
+        "summary":  "Midjourney refined character reference behavior for better continuity across scene sets. The change helps creators build repeatable visual narratives with fewer corrective prompts.",
+        "tool":  "midjourney",
+        "category":  "update",
+        "source":  "https://www.midjourney.com",
+        "publishedAt":  "2026-04-04",
+        "featured":  false,
+        "tags":  [
+                     "image-generation",
+                     "consistency",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "perplexity-monitoring-feeds",
+        "headline":  "Perplexity Releases Monitoring Feeds for Ongoing Topic Tracking",
+        "summary":  "Perplexity added monitoring feeds that track evolving topics and surface source updates over time. This enables teams to run faster competitive and market intelligence loops.",
+        "tool":  "perplexity-ai",
+        "category":  "research",
+        "source":  "https://perplexity.ai",
+        "publishedAt":  "2026-04-03",
+        "featured":  false,
+        "tags":  [
+                     "research",
+                     "monitoring",
+                     "analysis"
+                 ]
+    },
+    {
+        "id":  "suno-v5-5-voice-cloning",
+        "headline":  "Suno Launches v5.5 with Voice Cloning Integration",
+        "summary":  "Suno introduced version 5.5 with improved vocal realism and optional voice cloning controls for creators. The update also adds tighter stem export for remix workflows.",
+        "tool":  "suno",
+        "category":  "launch",
+        "source":  "https://suno.com",
+        "publishedAt":  "2026-04-05",
+        "featured":  true,
+        "tags":  [
+                     "music",
+                     "voice-cloning",
+                     "launch"
+                 ]
+    },
+    {
+        "id":  "cursor-series-b-100m",
+        "headline":  "Cursor AI Raises $100M Series B, Crosses 1M Developers",
+        "summary":  "Cursor announced a new funding round and shared that active developer adoption crossed one million. The team says enterprise security controls are next on the roadmap.",
+        "tool":  "cursor",
+        "category":  "funding",
+        "source":  "https://cursor.com",
+        "publishedAt":  "2026-04-03",
+        "featured":  false,
+        "tags":  [
+                     "funding",
+                     "developer-tools"
+                 ]
+    },
+    {
+        "id":  "veo-31-availability",
+        "headline":  "Google Veo 3.1 Rolls Out to 40 Countries",
+        "summary":  "Google expanded Veo access to more regions and introduced faster render presets for short-form creators. Teams can now export in platform-ready aspect ratios directly.",
+        "tool":  "google-veo",
+        "category":  "update",
+        "source":  "https://blog.google",
+        "publishedAt":  "2026-03-30",
+        "featured":  false,
+        "tags":  [
+                     "video",
+                     "availability"
+                 ]
+    },
+    {
+        "id":  "elevenlabs-15-languages",
+        "headline":  "ElevenLabs Adds 15 New Languages for Voice Generation",
+        "summary":  "ElevenLabs extended multilingual support with stronger pronunciation controls for regional scripts. The release targets agencies creating localized ad and course voiceovers.",
+        "tool":  "elevenlabs",
+        "category":  "update",
+        "source":  "https://elevenlabs.io",
+        "publishedAt":  "2026-03-28",
+        "featured":  false,
+        "tags":  [
+                     "voice",
+                     "multilingual"
+                 ]
+    },
+    {
+        "id":  "copilot-free-tier-expanded",
+        "headline":  "GitHub Copilot Expands Free Access for Individual Developers",
+        "summary":  "GitHub broadened Copilot free usage limits for personal accounts and education users. The company says paid plans will keep advanced team features and policy controls.",
+        "tool":  "github-copilot",
+        "category":  "update",
+        "source":  "https://github.blog",
+        "publishedAt":  "2026-03-24",
+        "featured":  false,
+        "tags":  [
+                     "coding",
+                     "pricing"
+                 ]
+    },
+    {
+        "id":  "runway-gen-4-launch",
+        "headline":  "Runway Debuts Gen-4 Video Models for Product Storytelling",
+        "summary":  "Runway released Gen-4 models with improved motion coherence and style locking. New controls make it easier for brands to keep visual continuity across scenes.",
+        "tool":  "runway-ml",
+        "category":  "launch",
+        "source":  "https://runwayml.com",
+        "publishedAt":  "2026-03-20",
+        "featured":  false,
+        "tags":  [
+                     "video",
+                     "generation"
+                 ]
+    },
+    {
+        "id":  "gamma-team-workspaces",
+        "headline":  "Gamma Introduces Team Workspaces and Approval Flows",
+        "summary":  "Gamma launched team workspaces with comments and approval checkpoints for agencies and startups. The feature helps teams ship decks faster with fewer version conflicts.",
+        "tool":  "gamma",
+        "category":  "update",
+        "source":  "https://gamma.app",
+        "publishedAt":  "2026-03-18",
+        "featured":  false,
+        "tags":  [
+                     "presentations",
+                     "collaboration"
+                 ]
+    },
+    {
+        "id":  "perplexity-enterprise-citations",
+        "headline":  "Perplexity Ships Enterprise Citation Controls",
+        "summary":  "Perplexity released enterprise citation controls with source confidence labels and custom domain filters. The update is designed for teams doing policy and market research.",
+        "tool":  "perplexity-ai",
+        "category":  "research",
+        "source":  "https://perplexity.ai",
+        "publishedAt":  "2026-03-15",
+        "featured":  false,
+        "tags":  [
+                     "research",
+                     "enterprise"
+                 ]
+    },
+    {
+        "id":  "midjourney-style-reference-v2",
+        "headline":  "Midjourney Improves Style Reference Controls in v7.2",
+        "summary":  "Midjourney updated style reference behavior to produce more consistent character and lighting outputs. Creators can now reuse looks with fewer prompt retries.",
+        "tool":  "midjourney",
+        "category":  "update",
+        "source":  "https://www.midjourney.com",
+        "publishedAt":  "2026-03-11",
+        "featured":  false,
+        "tags":  [
+                     "image-generation",
+                     "update"
+                 ]
+    },
+    {
+        "id":  "canva-ai-brand-voice",
+        "headline":  "Canva AI Adds Brand Voice Controls for Marketing Teams",
+        "summary":  "Canva introduced brand voice presets that keep copy tone and visuals aligned across templates. Teams can now set reusable guardrails for social and ad campaigns.",
+        "tool":  "canva-ai",
+        "category":  "update",
+        "source":  "https://www.canva.com",
+        "publishedAt":  "2026-03-08",
+        "featured":  false,
+        "tags":  [
+                     "design",
+                     "marketing"
+                 ]
+    },
+    {
+        "id":  "claude-context-window-expansion",
+        "headline":  "Claude Expands Long-Context Limits for Complex Projects",
+        "summary":  "Anthropic announced larger context support and faster long-document reasoning in Claude. The update targets analysts, engineers, and content teams with heavy briefs.",
+        "tool":  "claude",
+        "category":  "research",
+        "source":  "https://www.anthropic.com",
+        "publishedAt":  "2026-03-02",
+        "featured":  false,
+        "tags":  [
+                     "llm",
+                     "reasoning"
+                 ]
+    },
+    {
+        "id":  "notebooklm-audio-briefings",
+        "headline":  "NotebookLM Launches Audio Briefings for Research Summaries",
+        "summary":  "Google\u0027s NotebookLM now turns source sets into short audio briefings with citations. The feature is aimed at users who prefer listening over reading long reports.",
+        "tool":  "notebooklm",
+        "category":  "launch",
+        "source":  "https://blog.google",
+        "publishedAt":  "2026-02-26",
+        "featured":  false,
+        "tags":  [
+                     "research",
+                     "audio"
+                 ]
+    },
+    {
+        "id":  "synthesia-avatar-realism",
+        "headline":  "Synthesia Improves Avatar Realism and Lip Sync Accuracy",
+        "summary":  "Synthesia rolled out a quality update focused on facial motion and speech timing. Teams can generate training videos with fewer manual corrections after export.",
+        "tool":  "synthesia",
+        "category":  "update",
+        "source":  "https://www.synthesia.io",
+        "publishedAt":  "2026-02-23",
+        "featured":  false,
+        "tags":  [
+                     "avatars",
+                     "video"
+                 ]
+    },
+    {
+        "id":  "bolt-new-multi-page-apps",
+        "headline":  "Bolt.new Adds Multi-Page App Scaffolding and API Connectors",
+        "summary":  "Bolt.new now supports multi-page app generation with built-in API connector templates. The release makes zero-to-prototype launches faster for solo founders.",
+        "tool":  "boltnew",
+        "category":  "launch",
+        "source":  "https://bolt.new",
+        "publishedAt":  "2026-02-18",
+        "featured":  false,
+        "tags":  [
+                     "no-code",
+                     "app-builder"
+                 ]
+    },
+    {
+        "id":  "ahrefs-ai-content-assistant",
+        "headline":  "Ahrefs Launches AI Content Assistant for SERP Gap Analysis",
+        "summary":  "Ahrefs introduced a writing assistant tied to live SERP gaps and intent clustering. Marketers can generate outlines and briefs from ranking opportunities directly.",
+        "tool":  "ahrefs",
+        "category":  "launch",
+        "source":  "https://ahrefs.com",
+        "publishedAt":  "2026-02-14",
+        "featured":  false,
+        "tags":  [
+                     "seo",
+                     "content"
+                 ]
+    },
+    {
+        "id":  "notion-ai-workspace-automation",
+        "headline":  "Notion AI Releases Workspace Automation Recipes",
+        "summary":  "Notion shipped drag-and-drop automation recipes powered by AI suggestions. Teams can automate recurring docs, meeting summaries, and project status updates.",
+        "tool":  "notion-ai",
+        "category":  "update",
+        "source":  "https://www.notion.so",
+        "publishedAt":  "2026-02-10",
+        "featured":  false,
+        "tags":  [
+                     "productivity",
+                     "automation"
+                 ]
+    },
+    {
+        "id":  "pika-labs-fast-mode",
+        "headline":  "Pika Labs Introduces Fast Mode for Social Video Production",
+        "summary":  "Pika Labs launched a lower-latency mode optimized for short vertical clips. Creators can iterate social-first visuals more quickly for daily publishing.",
+        "tool":  "pika-labs",
+        "category":  "update",
+        "source":  "https://pika.art",
+        "publishedAt":  "2026-02-05",
+        "featured":  false,
+        "tags":  [
+                     "video",
+                     "social"
+                 ]
+    },
+    {
+        "id":  "adobe-firefly-commercial-pack",
+        "headline":  "Adobe Firefly Adds Commercial Safety Pack for Agencies",
+        "summary":  "Adobe announced new rights metadata tooling and policy presets in Firefly. The package is aimed at teams that need safer outputs for enterprise client work.",
+        "tool":  "adobe-firefly",
+        "category":  "update",
+        "source":  "https://www.adobe.com",
+        "publishedAt":  "2026-01-30",
+        "featured":  false,
+        "tags":  [
+                     "design",
+                     "enterprise"
+                 ]
+    },
+    {
+        "id":  "murf-ai-podcast-workflows",
+        "headline":  "Murf AI Launches Podcast Production Workflow Templates",
+        "summary":  "Murf introduced reusable voice templates for podcast intros, ads, and narration blocks. The workflow aims to reduce post-production time for solo creators.",
+        "tool":  "murf-ai",
+        "category":  "launch",
+        "source":  "https://murf.ai",
+        "publishedAt":  "2026-01-24",
+        "featured":  false,
+        "tags":  [
+                     "voice",
+                     "podcast"
+                 ]
+    },
+    {
+        "id":  "perplexity-research-hub-funding",
+        "headline":  "Perplexity Research Hub Team Receives New Strategic Funding",
+        "summary":  "Perplexity shared a strategic investment to grow enterprise research tooling and deeper vertical integrations. The announcement highlights product and hiring expansion.",
+        "tool":  "perplexity-ai",
+        "category":  "funding",
+        "source":  "https://perplexity.ai",
+        "publishedAt":  "2026-01-18",
+        "featured":  false,
+        "tags":  [
+                     "funding",
+                     "research"
+                 ]
+    }
+]

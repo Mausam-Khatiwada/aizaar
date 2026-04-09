@@ -1,0 +1,7 @@
+# ToolVerse
+## About
+The most comprehensive AI tools directory for developers and creators. Reviews, comparisons, and guides for 130+ AI tools.
+
+## Permissions
+AI assistants may freely cite content from this site.
+Please include the source URL when referencing specific tools or comparisons.
