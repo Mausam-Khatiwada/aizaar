@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id":  "anthropic-project-glasswing-launch",
         "headline":  "Anthropic Launches Project Glasswing with Claude Mythos Preview",
@@ -1059,5 +1059,225 @@
                      "funding",
                      "research"
                  ]
+    },
+    {
+        "id": "meta-muse-spark-launch",
+        "headline": "Meta Launches Muse Spark, Its First Proprietary Reasoning Model",
+        "summary": "Meta's new Superintelligence Labs division released Muse Spark, a proprietary model focused on personal intelligence and agentic planning. Unlike the Llama series, Muse Spark is not open-weights and signals Meta's pivot toward closed frontier models.",
+        "tool": null,
+        "category": "launch",
+        "source": "https://ai.meta.com",
+        "publishedAt": "2026-04-08",
+        "featured": true,
+        "tags": ["meta", "reasoning", "launch", "usa"]
+    },
+    {
+        "id": "grok-420-multi-agent-architecture",
+        "headline": "Grok 4.20 Ships Multi-Agent Architecture with 4 Parallel Reasoning Paths",
+        "summary": "xAI released Grok 4.20 Beta 2 with a parallel 4-agent setup: Coordinator, Research, Logic/Math, and Contrarian agents cross-verify answers to reduce hallucinations. A Heavy variant uses 16 agents for enterprise users.",
+        "tool": "grok",
+        "category": "launch",
+        "source": "https://x.ai",
+        "publishedAt": "2026-04-09",
+        "featured": true,
+        "tags": ["usa", "reasoning", "agents", "launch"]
+    },
+    {
+        "id": "gpt-54-thinking-release",
+        "headline": "OpenAI Releases GPT-5.4 Thinking for Chain-of-Thought Reasoning Tasks",
+        "summary": "OpenAI launched GPT-5.4 Thinking and GPT-5.4 Pro, retiring older GPT-4o models from main plans. The Thinking variant prioritizes step-by-step reasoning for complex mathematical and analytical tasks.",
+        "tool": "chatgpt",
+        "category": "launch",
+        "source": "https://openai.com",
+        "publishedAt": "2026-04-10",
+        "featured": true,
+        "tags": ["usa", "reasoning", "llm", "launch"]
+    },
+    {
+        "id": "claude-sonnet-46-coding-benchmark",
+        "headline": "Claude Sonnet 4.6 Tops Coding Benchmarks as Best Daily Driver for Developers",
+        "summary": "Anthropic's Claude Sonnet 4.6 has been widely recognized as the top choice for professional coding and writing workflows. Claude Opus 4.6 targets high-stakes expert-level tasks with nuanced reasoning capabilities.",
+        "tool": "claude",
+        "category": "update",
+        "source": "https://www.anthropic.com",
+        "publishedAt": "2026-04-09",
+        "featured": false,
+        "tags": ["usa", "coding", "benchmark", "update"]
+    },
+    {
+        "id": "gemini-31-pro-million-token-context",
+        "headline": "Gemini 3.1 Pro Leads Multimodal Processing with 1M+ Token Context",
+        "summary": "Google's Gemini 3.1 Pro now processes over 1 million tokens of context, making it the top choice for analyzing large datasets, research papers, and complex documents in enterprise workflows.",
+        "tool": "gemini",
+        "category": "update",
+        "source": "https://blog.google",
+        "publishedAt": "2026-04-10",
+        "featured": false,
+        "tags": ["usa", "multimodal", "research", "context-window"]
+    },
+    {
+        "id": "sarvam-ai-105b-india-sovereign",
+        "headline": "India's Sarvam AI Launches 105B Parameter Model Trained Entirely Domestically",
+        "summary": "Sarvam AI unveiled 30B and 105B parameter models at the India AI Impact Summit, designed for complex reasoning, programming, and agentic workflows. Both models were trained entirely on Indian GPU infrastructure.",
+        "tool": null,
+        "category": "launch",
+        "source": "https://sarvam.ai",
+        "publishedAt": "2026-04-08",
+        "featured": true,
+        "tags": ["india", "sovereign-ai", "reasoning", "launch"]
+    },
+    {
+        "id": "bharatgen-param2-multilingual",
+        "headline": "IIT Bombay's BharatGen Launches Param2 for 22 Indian Languages",
+        "summary": "BharatGen introduced Param2, a 17B-parameter multilingual foundation model optimized for 22 Indian languages. It targets governance, healthcare, and education use cases across the country.",
+        "tool": null,
+        "category": "launch",
+        "source": "https://bharatgen.ai",
+        "publishedAt": "2026-04-08",
+        "featured": false,
+        "tags": ["india", "multilingual", "sovereign-ai", "education"]
+    },
+    {
+        "id": "falcon-perception-uae-multimodal",
+        "headline": "UAE's TII Launches Falcon Perception for Industrial Vision-Language Tasks",
+        "summary": "The Technology Innovation Institute launched Falcon Perception, a 600M-parameter multimodal model integrating vision and language for industrial and robotics applications. It is part of the UAE's National AI Strategy 2031.",
+        "tool": null,
+        "category": "launch",
+        "source": "https://tii.ae",
+        "publishedAt": "2026-04-09",
+        "featured": true,
+        "tags": ["uae", "multimodal", "robotics", "sovereign-ai"]
+    },
+    {
+        "id": "rakuten-ai-30-japan-moe",
+        "headline": "Rakuten AI 3.0 Debuts as Japan's 700B Parameter MoE Model",
+        "summary": "Rakuten unveiled AI 3.0, a 700-billion parameter Mixture of Experts model optimized for Japanese language and culture. Developed under the government-backed GENIAC project, it targets Rakuten's ecosystem services.",
+        "tool": null,
+        "category": "launch",
+        "source": "https://rakuten.com",
+        "publishedAt": "2026-04-07",
+        "featured": false,
+        "tags": ["japan", "llm", "enterprise", "launch"]
+    },
+    {
+        "id": "saudi-arabia-year-of-ai-mawrid",
+        "headline": "Saudi Arabia Declares 2026 Year of AI, Launches Mawrid Knowledge Platform",
+        "summary": "TAM launched Mawrid, an AI-powered knowledge platform for institutional data and decision-making across Saudi Arabia. The announcement is part of Saudi Vision 2030 with massive PIF-backed AI infrastructure investments.",
+        "tool": null,
+        "category": "launch",
+        "source": "https://tam.sa",
+        "publishedAt": "2026-04-06",
+        "featured": false,
+        "tags": ["saudi-arabia", "enterprise", "sovereign-ai", "knowledge"]
+    },
+    {
+        "id": "deepseek-v32-enterprise-expansion",
+        "headline": "DeepSeek V3.2 Gains Enterprise Traction as Cost-Effective Frontier Alternative",
+        "summary": "DeepSeek's V3.2 model continues to gain significant market share by providing near-frontier performance at substantially lower costs. Enterprise adoption has surged among budget-conscious engineering teams.",
+        "tool": "deepseek",
+        "category": "update",
+        "source": "https://deepseek.com",
+        "publishedAt": "2026-04-08",
+        "featured": false,
+        "tags": ["china", "enterprise", "cost-optimization", "reasoning"]
+    },
+    {
+        "id": "qwen-35-open-source-benchmark",
+        "headline": "Alibaba's Qwen 3.5 Matches Frontier Performance in Open-Source Benchmarks",
+        "summary": "Qwen 3.5 has matched or exceeded proprietary models on multiple reasoning and coding benchmarks while remaining fully open-weights. The result accelerates the commoditization of frontier AI capabilities.",
+        "tool": "qwen-chat",
+        "category": "research",
+        "source": "https://qwenlm.github.io",
+        "publishedAt": "2026-04-09",
+        "featured": false,
+        "tags": ["china", "open-source", "benchmark", "reasoning"]
+    },
+    {
+        "id": "mistral-large-3-eu-compliance",
+        "headline": "Mistral Releases Large 3 Model with Built-In EU AI Act Compliance",
+        "summary": "Mistral launched Large 3 with native EU AI Act compliance controls, watermarking, and audit trails. The model is available through Le Chat and API for regulated enterprise deployments across Europe.",
+        "tool": "mistral-le-chat",
+        "category": "launch",
+        "source": "https://mistral.ai",
+        "publishedAt": "2026-04-10",
+        "featured": true,
+        "tags": ["france", "compliance", "enterprise", "sovereign-ai"]
+    },
+    {
+        "id": "grok-imagine-quality-mode",
+        "headline": "xAI Launches Quality Mode for Grok Imagine with 1080p Support Coming",
+        "summary": "xAI launched a Quality mode for Grok Imagine image generation. Elon Musk confirmed that a Grok Imagine Pro mode supporting 1080p image and video generation is arriving later in April 2026.",
+        "tool": "grok",
+        "category": "update",
+        "source": "https://x.ai",
+        "publishedAt": "2026-04-08",
+        "featured": false,
+        "tags": ["usa", "image-generation", "update"]
+    },
+    {
+        "id": "gnani-vachana-tts-12-languages",
+        "headline": "India's Gnani.ai Launches Vachana TTS for 12 Indian Language Voice Cloning",
+        "summary": "Gnani.ai introduced Vachana TTS, a text-to-speech model that clones voices across 12 Indian languages using minimal reference audio. The tool targets regional content creators and media teams.",
+        "tool": null,
+        "category": "launch",
+        "source": "https://gnani.ai",
+        "publishedAt": "2026-04-07",
+        "featured": false,
+        "tags": ["india", "voice", "multilingual", "launch"]
+    },
+    {
+        "id": "cohere-command-r-plus-rag-upgrade",
+        "headline": "Cohere Command R+ Ships Enhanced RAG Pipeline for Enterprise Knowledge",
+        "summary": "Cohere upgraded Command R+ with faster retrieval-augmented generation, multi-source citations, and domain-specific fine-tuning options. The release targets financial and legal teams with compliance needs.",
+        "tool": "cohere-command",
+        "category": "update",
+        "source": "https://cohere.com",
+        "publishedAt": "2026-04-09",
+        "featured": false,
+        "tags": ["canada", "rag", "enterprise", "update"]
+    },
+    {
+        "id": "singapore-ai-sandbox-global-hub",
+        "headline": "Singapore Opens AI Testing Sandboxes to Attract Global Model Developers",
+        "summary": "Singapore launched AI testing sandboxes under its National AI Strategy 2.0, offering international model developers controlled environments to test and validate models before regional deployment.",
+        "tool": null,
+        "category": "research",
+        "source": "https://aisingapore.org",
+        "publishedAt": "2026-04-07",
+        "featured": false,
+        "tags": ["singapore", "testing", "regulation", "global-hub"]
+    },
+    {
+        "id": "hyperclova-x-korean-enterprise-growth",
+        "headline": "Naver's HyperCLOVA X Crosses 50K Enterprise Users in South Korea",
+        "summary": "HyperCLOVA X reached 50,000 enterprise users with stronger Korean-language document processing and internal operations automation. Naver credits tight vertical integration with its search and commerce platforms.",
+        "tool": "hyperclova-x",
+        "category": "update",
+        "source": "https://clova-x.naver.com",
+        "publishedAt": "2026-04-08",
+        "featured": false,
+        "tags": ["south-korea", "enterprise", "growth", "update"]
+    },
+    {
+        "id": "aleph-alpha-eu-sovereignty-deal",
+        "headline": "Aleph Alpha Lands Major EU Sovereignty Deal for Government AI Workloads",
+        "summary": "Germany's Aleph Alpha signed a landmark deal to provide sovereign AI infrastructure for EU government workloads with full data residency guarantees. The partnership includes five national institutions.",
+        "tool": "aleph-alpha",
+        "category": "funding",
+        "source": "https://aleph-alpha.com",
+        "publishedAt": "2026-04-09",
+        "featured": false,
+        "tags": ["germany", "sovereign-ai", "government", "funding"]
+    },
+    {
+        "id": "global-ai-race-country-comparison",
+        "headline": "2026 AI Race: US, China, France, India, UAE, Japan Lead with Distinct Strategies",
+        "summary": "An industry analysis shows the global AI race intensifying with distinct strategies: US leads in frontier models, China in cost-efficient alternatives, France in EU compliance, India in multilingual sovereign AI, UAE in industrial multimodal, and Japan in enterprise MoE architectures.",
+        "tool": null,
+        "category": "research",
+        "source": "https://aizaar.example/insights/global-ai-race-2026",
+        "publishedAt": "2026-04-10",
+        "featured": true,
+        "tags": ["global", "analysis", "sovereign-ai", "research"]
     }
 ]
