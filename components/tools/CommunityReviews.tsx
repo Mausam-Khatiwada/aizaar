@@ -71,7 +71,7 @@ export function CommunityReviews({
             {[5, 4, 3, 2, 1].map((star) => (
               <div key={star} className="flex items-center gap-3 text-sm">
                 <span className="w-8 text-muted">{star}★</span>
-                <div className="h-2 flex-1 rounded-full bg-white/10">
+                <div className="h-2 flex-1 rounded-full bg-surface-soft">
                   <div className="h-full rounded-full bg-gradient-to-r from-purple to-cyan" style={{ width: `${breakdown[star as 1 | 2 | 3 | 4 | 5]}%` }} />
                 </div>
                 <span className="w-10 text-right text-muted">{breakdown[star as 1 | 2 | 3 | 4 | 5]}%</span>
@@ -143,7 +143,7 @@ export function CommunityReviews({
             <p className="mt-2 text-sm text-muted">Share your experience and we will review your submission before publishing.</p>
             <form className="mt-5 grid gap-3" onSubmit={(event) => event.preventDefault()}>
               <input type="text" placeholder="Your name" className="surface-input rounded-2xl px-4" />
-              <select className="min-h-11 rounded-2xl border border-white/10 bg-white/[0.03] px-4 text-sm text-foreground outline-none">
+              <select className="surface-select min-h-11 rounded-2xl px-4 text-sm text-foreground outline-none">
                 <option>5 stars</option>
                 <option>4 stars</option>
                 <option>3 stars</option>
@@ -151,7 +151,7 @@ export function CommunityReviews({
                 <option>1 star</option>
               </select>
               <input type="text" placeholder="Headline" className="surface-input rounded-2xl px-4" />
-              <textarea placeholder="Your review" className="min-h-[130px] rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 text-sm text-foreground outline-none" />
+              <textarea placeholder="Your review" className="min-h-[130px] rounded-2xl border border-border bg-surface-soft px-4 py-3 text-sm text-foreground outline-none placeholder:text-muted" />
               <a
                 href="mailto:hello@aizaar.example?subject=Review%20Submission"
                 className="button-primary button-glow"

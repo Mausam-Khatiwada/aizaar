@@ -120,7 +120,7 @@ export function Hero() {
                 initial={{ opacity: 0, y: 14 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.05 }}
-                className="text-4xl font-extrabold leading-[0.98] text-secondary sm:text-6xl lg:text-7xl"
+                className="text-4xl font-extrabold leading-[0.98] text-foreground sm:text-6xl lg:text-7xl"
               >
                 Find the Right
               </motion.h1>
@@ -136,7 +136,7 @@ export function Hero() {
                 initial={{ opacity: 0, y: 14 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.35 }}
-                className="text-4xl font-extrabold leading-[0.98] text-secondary sm:text-6xl lg:text-7xl"
+                className="text-4xl font-extrabold leading-[0.98] text-foreground sm:text-6xl lg:text-7xl"
               >
                 For Any Task
               </motion.h1>
@@ -346,14 +346,14 @@ export function Hero() {
                           </div>
 
                           <h3
-                            className={`mt-2.5 font-extrabold leading-none tracking-tight text-white sm:mt-3 ${
+                            className={`mt-2.5 font-extrabold leading-none tracking-tight text-foreground sm:mt-3 ${
                               isLead ? "text-3xl sm:text-[2.35rem]" : "text-2xl sm:text-[1.85rem]"
                             }`}
                           >
                             {card.name}
                           </h3>
                           <p
-                            className={`mt-1.5 text-slate-100/82 sm:mt-2 ${isLead ? "line-clamp-2 text-sm leading-relaxed" : "line-clamp-2 text-xs leading-5 sm:text-sm sm:leading-6"}`}
+                            className={`mt-1.5 text-muted sm:mt-2 ${isLead ? "line-clamp-2 text-sm leading-relaxed" : "line-clamp-2 text-xs leading-5 sm:text-sm sm:leading-6"}`}
                           >
                             {card.metric}
                           </p>

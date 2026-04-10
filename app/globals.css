@@ -84,6 +84,11 @@
   --glow-cyan: 0 0 40px rgba(6, 182, 212, 0.12);
 }
 
+/* ─────────────────────────────────────────────────────────
+   Semantic theme-adaptive utilities
+   Use these INSTEAD of hardcoded white/XX or black/XX.
+   ───────────────────────────────────────────────────────── */
+
 /* Theme-compat: many components use dark-first utility colors like border-white/10 + bg-white/[0.03].
    These overrides keep contrast readable in light mode without rewriting every component. */
 [data-theme="light"] .border-white\/10 { border-color: rgba(15, 23, 42, 0.12) !important; }
@@ -91,12 +96,12 @@
 [data-theme="light"] .border-white\/20 { border-color: rgba(15, 23, 42, 0.18) !important; }
 [data-theme="light"] .border-white\/25 { border-color: rgba(15, 23, 42, 0.22) !important; }
 
-[data-theme="light"] .bg-white\/\\[0\\.02\\] { background-color: rgba(15, 23, 42, 0.02) !important; }
-[data-theme="light"] .bg-white\/\\[0\\.03\\] { background-color: rgba(15, 23, 42, 0.03) !important; }
-[data-theme="light"] .bg-white\/\\[0\\.04\\] { background-color: rgba(15, 23, 42, 0.04) !important; }
-[data-theme="light"] .bg-white\/\\[0\\.05\\] { background-color: rgba(15, 23, 42, 0.05) !important; }
-[data-theme="light"] .bg-white\/\\[0\\.06\\] { background-color: rgba(15, 23, 42, 0.06) !important; }
-[data-theme="light"] .bg-white\/\\[0\\.08\\] { background-color: rgba(15, 23, 42, 0.08) !important; }
+[data-theme="light"] .bg-white\/\[0\.02\] { background-color: rgba(15, 23, 42, 0.02) !important; }
+[data-theme="light"] .bg-white\/\[0\.03\] { background-color: rgba(15, 23, 42, 0.03) !important; }
+[data-theme="light"] .bg-white\/\[0\.04\] { background-color: rgba(15, 23, 42, 0.04) !important; }
+[data-theme="light"] .bg-white\/\[0\.05\] { background-color: rgba(15, 23, 42, 0.05) !important; }
+[data-theme="light"] .bg-white\/\[0\.06\] { background-color: rgba(15, 23, 42, 0.06) !important; }
+[data-theme="light"] .bg-white\/\[0\.08\] { background-color: rgba(15, 23, 42, 0.08) !important; }
 
 [data-theme="light"] .text-white { color: var(--text-primary) !important; }
 [data-theme="light"] .text-white\/90 { color: rgba(15, 23, 42, 0.9) !important; }
@@ -109,6 +114,7 @@
 [data-theme="light"] .bg-black\/20 { background-color: rgba(15, 23, 42, 0.04) !important; }
 [data-theme="light"] .bg-black\/25 { background-color: rgba(15, 23, 42, 0.05) !important; }
 [data-theme="light"] .bg-black\/40 { background-color: rgba(15, 23, 42, 0.06) !important; }
+[data-theme="light"] .bg-white\/10 { background-color: rgba(15, 23, 42, 0.08) !important; }
 
 * {
   border-color: var(--border);
@@ -226,9 +232,20 @@ textarea {
   .glass-card {
     background: var(--surface-glass);
     border: 1px solid var(--glass-border);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     box-shadow: var(--panel-shadow);
+  }
+
+  /* Theme-adaptive card surface — use instead of bg-white/[0.03] + border-white/10 */
+  .surface-card {
+    background: var(--surface-soft);
+    border: 1px solid var(--border);
+  }
+
+  .surface-card-hover:hover {
+    border-color: var(--border-bright);
+    background: var(--surface-elevated);
   }
 
   .glass-card-hover {

@@ -51,7 +51,7 @@ export function ToolSearch({
         placeholder={value ? "Search tools..." : placeholderText.slice(0, typedLength)}
         className="w-full min-w-0 bg-transparent text-sm text-foreground outline-none placeholder:text-muted"
       />
-      <span className="hidden h-7 items-center rounded-full border border-white/10 px-2.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-muted sm:inline-flex">
+      <span className="hidden h-7 items-center rounded-full border border-border px-2.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-muted sm:inline-flex">
         Cmd K
       </span>
     </label>

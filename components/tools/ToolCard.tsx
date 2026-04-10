@@ -36,7 +36,7 @@ export function ToolCard({
         <div className="flex h-full flex-col p-5">
           <div className="flex items-start justify-between gap-4">
             <div className="flex min-w-0 items-center gap-4">
-              <div className="relative flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.05] shadow-[0_18px_48px_rgba(124,58,237,0.18)]">
+              <div className="relative flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-border bg-surface-soft shadow-[0_18px_48px_rgba(124,58,237,0.18)]">
                 <Image
                   src={tool.logo}
                   alt={`${tool.name} logo`}
@@ -102,7 +102,7 @@ export function ToolCard({
                   "icon-button shrink-0 transition",
                   compared
                     ? "border-cyan/40 bg-cyan/10 text-cyan"
-                    : "border-white/10 bg-white/[0.03] text-muted hover:text-foreground",
+                    : "border-border bg-surface-soft text-muted hover:text-foreground",
                 )}
               >
                 <Scale size={18} />
@@ -116,7 +116,7 @@ export function ToolCard({
                   "icon-button shrink-0 transition",
                   saved
                     ? "border-rose/40 bg-rose/10 text-rose-300"
-                    : "border-white/10 bg-white/[0.03] text-muted hover:text-foreground",
+                    : "border-border bg-surface-soft text-muted hover:text-foreground",
                 )}
               >
                 <motion.span whileTap={{ scale: 0.86 }} animate={{ scale: saved ? [1, 1.16, 1] : 1 }}>

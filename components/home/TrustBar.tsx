@@ -19,7 +19,7 @@ export function TrustBar() {
   const items = [...brands, ...brands];
 
   return (
-    <section className="text-marquee-shell border-b border-white/10 bg-white/[0.02]">
+    <section className="text-marquee-shell border-b border-border bg-surface-soft">
       <div className="page-shell py-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-6">
           <p className="shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-muted">

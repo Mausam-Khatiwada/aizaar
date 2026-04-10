@@ -87,6 +87,11 @@ export default async function HomePage() {
             name: siteConfig.name,
             url: siteConfig.url,
             description: siteConfig.description,
+            sameAs: [
+              siteConfig.socialLinks.twitter,
+              siteConfig.socialLinks.github,
+              siteConfig.socialLinks.youtube,
+            ],
           },
         ]}
       />

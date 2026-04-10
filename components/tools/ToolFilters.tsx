@@ -123,12 +123,12 @@ export function ToolFilters({
             Filters
           </button>
           <div className="text-sm text-muted">{resultsCount} tools</div>
-          <div className="inline-flex rounded-full border border-white/10 bg-white/[0.03] p-1">
+          <div className="surface-card inline-flex rounded-full p-1">
             <button
               type="button"
               aria-label="Grid view"
               onClick={() => onViewModeChange("grid")}
-              className={`rounded-full px-2 py-2 ${viewMode === "grid" ? "bg-white/10 text-foreground" : "text-muted"}`}
+              className={`rounded-full px-2 py-2 transition ${viewMode === "grid" ? "bg-surface-elevated text-foreground" : "text-muted"}`}
             >
               <Grid2X2 size={16} />
             </button>
@@ -136,7 +136,7 @@ export function ToolFilters({
               type="button"
               aria-label="List view"
               onClick={() => onViewModeChange("list")}
-              className={`rounded-full px-2 py-2 ${viewMode === "list" ? "bg-white/10 text-foreground" : "text-muted"}`}
+              className={`rounded-full px-2 py-2 transition ${viewMode === "list" ? "bg-surface-elevated text-foreground" : "text-muted"}`}
             >
               <List size={16} />
             </button>
@@ -161,22 +161,22 @@ export function ToolFilters({
                 className={`min-h-11 rounded-full border px-4 py-2 text-sm font-medium transition ${
                   features.length > 0
                     ? "border-transparent bg-gradient-to-r from-purple to-cyan text-white shadow-purple"
-                    : "border-white/10 bg-white/[0.03] text-muted hover:border-white/20 hover:text-foreground"
+                    : "border-border bg-surface-soft text-muted hover:border-border-bright hover:text-foreground"
                 }`}
               >
                 Features
               </button>
               {showFeatureMenu ? (
-                <div className="absolute right-0 top-12 z-20 w-[230px] rounded-2xl border border-white/10 bg-background/95 p-3 backdrop-blur-xl">
+                <div className="absolute right-0 top-12 z-20 w-[230px] rounded-2xl border border-border bg-background/95 p-3 backdrop-blur-xl">
                   {featureOptions.map((option) => {
                     const checked = features.includes(option.value);
                     return (
-                      <label key={option.value} className="flex cursor-pointer items-center gap-2 rounded-xl px-2 py-2 text-sm text-muted hover:bg-white/[0.04]">
+                      <label key={option.value} className="flex cursor-pointer items-center gap-2 rounded-xl px-2 py-2 text-sm text-muted hover:bg-surface-soft">
                         <input
                           type="checkbox"
                           checked={checked}
                           onChange={() => onFeatureToggle(option.value)}
-                          className="h-4 w-4 rounded border-white/20 bg-white/[0.06]"
+                          className="h-4 w-4 rounded border-border-bright bg-surface-soft accent-cyan"
                         />
                         <span>{option.label}</span>
                       </label>
@@ -193,7 +193,7 @@ export function ToolFilters({
               <select
                 value={sort}
                 onChange={(event) => onSortChange(event.target.value as ToolSort)}
-                className="min-h-11 rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm text-foreground outline-none"
+                className="surface-select min-h-11 rounded-full px-4 py-2 text-sm text-foreground outline-none"
               >
                 {sortOptions.map((option) => (
                   <option key={option.value} value={option.value}>
@@ -203,12 +203,12 @@ export function ToolFilters({
               </select>
             </label>
 
-            <div className="inline-flex rounded-full border border-white/10 bg-white/[0.03] p-1">
+            <div className="surface-card inline-flex rounded-full p-1">
               <button
                 type="button"
                 aria-label="Grid view"
                 onClick={() => onViewModeChange("grid")}
-                className={`rounded-full px-2 py-2 ${viewMode === "grid" ? "bg-white/10 text-foreground" : "text-muted"}`}
+                className={`rounded-full px-2 py-2 transition ${viewMode === "grid" ? "bg-surface-elevated text-foreground" : "text-muted"}`}
               >
                 <Grid2X2 size={16} />
               </button>
@@ -216,7 +216,7 @@ export function ToolFilters({
                 type="button"
                 aria-label="List view"
                 onClick={() => onViewModeChange("list")}
-                className={`rounded-full px-2 py-2 ${viewMode === "list" ? "bg-white/10 text-foreground" : "text-muted"}`}
+                className={`rounded-full px-2 py-2 transition ${viewMode === "list" ? "bg-surface-elevated text-foreground" : "text-muted"}`}
               >
                 <List size={16} />
               </button>
@@ -249,7 +249,7 @@ export function ToolFilters({
           onClick={() => setMobileOpen(false)}
         >
           <div
-            className="w-full max-h-[80vh] overflow-y-auto rounded-t-[28px] border-t border-white/10 bg-background p-4 pb-[calc(env(safe-area-inset-bottom)+72px)]"
+            className="w-full max-h-[80vh] overflow-y-auto rounded-t-[28px] border-t border-border bg-background p-4 pb-[calc(env(safe-area-inset-bottom)+72px)]"
             onClick={(event) => event.stopPropagation()}
           >
             <h3 className="text-xl font-bold text-foreground">Filters</h3>
@@ -273,7 +273,7 @@ export function ToolFilters({
               <select
                 value={sort}
                 onChange={(event) => onSortChange(event.target.value as ToolSort)}
-                className="min-h-11 w-full rounded-2xl border border-white/10 bg-white/[0.03] px-4 text-sm text-foreground outline-none"
+                className="surface-select min-h-11 w-full rounded-2xl px-4 text-sm text-foreground outline-none"
               >
                 {sortOptions.map((option) => (
                   <option key={`mobile-sort-${option.value}`} value={option.value}>
@@ -292,7 +292,7 @@ export function ToolFilters({
                       type="checkbox"
                       checked={features.includes(option.value)}
                       onChange={() => onFeatureToggle(option.value)}
-                      className="h-4 w-4 rounded border-white/20 bg-white/[0.06]"
+                      className="h-4 w-4 rounded border-border-bright bg-surface-soft accent-cyan"
                     />
                     <span>{option.label}</span>
                   </label>
@@ -331,7 +331,7 @@ function Pill({
       className={`min-h-10 whitespace-nowrap rounded-full border px-3 py-2 text-[13px] font-medium transition sm:min-h-11 sm:px-4 sm:text-sm ${
         active
           ? "border-transparent bg-gradient-to-r from-purple to-cyan text-white shadow-purple"
-          : "border-white/10 bg-white/[0.03] text-muted hover:border-white/20 hover:text-foreground"
+          : "border-border bg-surface-soft text-muted hover:border-border-bright hover:text-foreground"
       }`}
     >
       {label}

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Twitter, Youtube } from "lucide-react";
+import { Github, ShieldCheck, Twitter, Youtube } from "lucide-react";
 
 import type { Category } from "@/lib/tools";
 import { siteConfig } from "@/lib/site";
@@ -13,14 +13,18 @@ export function Footer({ categories }: { categories: Category[] }) {
             <span className="gradient-text">{siteConfig.name}</span>
           </Link>
           <p className="max-w-sm text-sm text-muted">{siteConfig.tagline}</p>
+          <div className="mt-2 inline-flex items-center gap-2 rounded-full border border-emerald/30 bg-emerald/10 px-3 py-1.5 text-xs font-semibold text-emerald">
+            <ShieldCheck size={14} />
+            Independently Reviewed &amp; Verified
+          </div>
           <div className="flex items-center gap-3 text-muted">
-            <Link href="https://twitter.com" aria-label="Twitter" className="icon-button h-10 w-10 hover:text-foreground">
+            <Link href={siteConfig.socialLinks.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="icon-button h-10 w-10 hover:text-foreground">
               <Twitter size={16} />
             </Link>
-            <Link href="https://github.com" aria-label="GitHub" className="icon-button h-10 w-10 hover:text-foreground">
+            <Link href={siteConfig.socialLinks.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="icon-button h-10 w-10 hover:text-foreground">
               <Github size={16} />
             </Link>
-            <Link href="https://youtube.com" aria-label="YouTube" className="icon-button h-10 w-10 hover:text-foreground">
+            <Link href={siteConfig.socialLinks.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="icon-button h-10 w-10 hover:text-foreground">
               <Youtube size={16} />
             </Link>
           </div>
@@ -53,11 +57,13 @@ export function Footer({ categories }: { categories: Category[] }) {
 
         <div>
           <h3 className="text-sm font-semibold uppercase tracking-[0.24em] text-muted">Newsletter</h3>
+          <p className="mt-2 text-xs text-muted">Get the best AI tool picks and news delivered weekly. No spam.</p>
           <form className="mt-4 space-y-3">
             <input
               type="email"
               placeholder="Enter your email"
               className="surface-input rounded-2xl px-4"
+              aria-label="Email address for newsletter"
             />
             <button
               type="button"
@@ -70,7 +76,7 @@ export function Footer({ categories }: { categories: Category[] }) {
       </div>
 
       <div className="theme-footer-sub page-shell flex flex-col gap-3 py-6 text-sm text-muted md:flex-row md:items-center md:justify-between">
-        <div>Copyright (c) 2026 {siteConfig.name}. {siteConfig.creatorRegion}</div>
+        <div>&copy; {new Date().getFullYear()} {siteConfig.name}. {siteConfig.creatorRegion}</div>
         <div className="flex flex-wrap items-center gap-4">
           <Link href="/privacy" className="hover:text-foreground">Privacy</Link>
           <Link href="/terms" className="hover:text-foreground">Terms</Link>

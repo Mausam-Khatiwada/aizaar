@@ -18,13 +18,13 @@ export default function NotFound() {
       <div className="text-center">
         <h1 className="gradient-text text-7xl font-black sm:text-8xl">404</h1>
         <p className="mt-3 text-2xl font-bold text-foreground">This tool seems to have escaped</p>
-        <div className="mx-auto mt-4 flex h-16 w-16 items-center justify-center rounded-full border border-white/10 bg-white/[0.03]">
+        <div className="mx-auto mt-4 flex h-16 w-16 items-center justify-center rounded-full border border-border bg-surface-soft">
           <Bot size={26} className="text-cyan" />
         </div>
       </div>
 
       <form
-        className="mx-auto mt-8 max-w-2xl rounded-full border border-white/10 bg-white/[0.03] px-5 py-3"
+        className="mx-auto mt-8 max-w-2xl rounded-full border border-border bg-surface-soft px-5 py-3"
         onSubmit={(event) => {
           event.preventDefault();
           router.push(`/tools${query ? `?q=${encodeURIComponent(query)}` : ""}`);

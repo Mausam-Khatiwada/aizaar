@@ -111,7 +111,7 @@ export function Header() {
             >
               <Search size={16} />
               <span>Search</span>
-              <span className="inline-flex h-6 items-center rounded-full border border-white/10 px-2 text-[11px] uppercase tracking-[0.24em]">
+              <span className="inline-flex h-6 items-center rounded-full border border-border px-2 text-[11px] uppercase tracking-[0.24em]">
                 Cmd K
               </span>
             </button>
@@ -191,7 +191,7 @@ export function Header() {
 
 function ShortcutRow({ label, value }: { label: string; value: string }) {
   return (
-    <div className="flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.03] px-3 py-2">
+    <div className="flex items-center justify-between rounded-xl border border-border bg-surface-soft px-3 py-2">
       <span>{label}</span>
       <span className="font-semibold text-foreground">{value}</span>
     </div>

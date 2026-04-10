@@ -23,7 +23,7 @@ export function CompareDrawer() {
           animate={{ y: 0 }}
           exit={{ y: "100%" }}
           transition={{ type: "spring", stiffness: 260, damping: 30 }}
-          className="fixed inset-x-0 bottom-0 z-[72] border-t border-white/10 bg-background/92 backdrop-blur-2xl"
+          className="fixed inset-x-0 bottom-0 z-[72] border-t border-border bg-background/92 backdrop-blur-2xl"
         >
           <div className="page-shell flex min-w-0 flex-col gap-4 py-4 md:flex-row md:items-center md:justify-between">
             <div className="flex min-w-0 flex-1 items-center gap-3 overflow-x-auto pb-1">
@@ -33,7 +33,7 @@ export function CompareDrawer() {
               {items.map((tool) => (
                 <div
                   key={tool.id}
-                  className="flex shrink-0 items-center gap-3 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2"
+                  className="flex shrink-0 items-center gap-3 rounded-full border border-border bg-surface-soft px-4 py-2"
                 >
                   <div>
                     <div className="text-sm font-semibold text-foreground">{tool.name}</div>

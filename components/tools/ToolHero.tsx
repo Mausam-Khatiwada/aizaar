@@ -26,7 +26,7 @@ export function ToolHero({
     <section
       className="relative overflow-hidden border-b border-border"
       style={{
-        backgroundImage: `${tool.brandGradient}, var(--tool-hero-overlay)`,
+        backgroundImage: `var(--tool-hero-overlay), ${tool.brandGradient}`,
       }}
     >
       <div className="page-shell relative z-10 py-14 sm:py-20">
@@ -51,7 +51,7 @@ export function ToolHero({
                   <PricingBadge model={tool.pricing.model} />
                   {tool.verified ? <Badge className="border-emerald/30 bg-emerald/10 text-emerald">Verified</Badge> : null}
                 </div>
-                <h1 className="mt-3 text-4xl font-extrabold sm:text-5xl">{tool.name}</h1>
+                <h1 className="mt-3 text-4xl font-extrabold text-foreground sm:text-5xl" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.15)' }}>{tool.name}</h1>
                 <p className="mt-2 max-w-2xl text-lg text-muted">{tool.tagline}</p>
               </div>
             </div>

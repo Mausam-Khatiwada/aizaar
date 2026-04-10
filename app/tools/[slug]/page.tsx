@@ -167,22 +167,22 @@ export default async function ToolPage({
       <ToolHero tool={tool} compareHref={compareHref} shareUrl={`${siteConfig.url}/tools/${tool.id}`} />
 
       <section className="section-shell pb-0 pt-8">
-        <div className="floating-border rounded-[28px] border border-white/10 bg-white/[0.03] p-6">
+        <div className="floating-border rounded-[28px] border border-border bg-surface-soft p-6">
           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-cyan">Quick Verdict</p>
           <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-            <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+            <div className="rounded-2xl border border-border bg-surface-soft p-4">
               <p className="text-xs uppercase tracking-[0.14em] text-muted">Our score</p>
               <p className="mt-1 text-3xl font-extrabold text-foreground">{tool.rating.overall.toFixed(1)} / 5</p>
             </div>
-            <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+            <div className="rounded-2xl border border-border bg-surface-soft p-4">
               <p className="text-xs uppercase tracking-[0.14em] text-muted">Best for</p>
               <p className="mt-1 font-semibold text-foreground">{tool.bestFor}</p>
             </div>
-            <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+            <div className="rounded-2xl border border-border bg-surface-soft p-4">
               <p className="text-xs uppercase tracking-[0.14em] text-muted">Not for</p>
               <p className="mt-1 font-semibold text-foreground">{tool.cons[0]}</p>
             </div>
-            <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+            <div className="rounded-2xl border border-border bg-surface-soft p-4">
               <p className="text-xs uppercase tracking-[0.14em] text-muted">Pricing</p>
               <p className="mt-1 font-semibold text-foreground">
                 From {tool.pricing.startingPrice} {tool.pricing.hasFree ? "| Free plan available" : ""}
@@ -249,7 +249,7 @@ export default async function ToolPage({
 
           <section>
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-cyan">Pricing Breakdown</p>
-            <div className="table-scroll rounded-[28px] border border-white/10">
+            <div className="table-scroll rounded-[28px] border border-border">
               <table className="premium-table min-w-[520px] sm:min-w-full">
                 <thead>
                   <tr>
@@ -336,7 +336,7 @@ export default async function ToolPage({
 
           <section>
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-cyan">How it compares</p>
-            <div className="table-scroll rounded-[28px] border border-white/10">
+            <div className="table-scroll rounded-[28px] border border-border">
               <table className="premium-table min-w-[560px] sm:min-w-[640px] lg:min-w-[720px]">
                 <thead>
                   <tr>
@@ -440,17 +440,17 @@ export default async function ToolPage({
           <div className="glass-card rounded-[32px] p-6">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan">Quick Info</p>
             <dl className="mt-5 grid gap-4 text-sm">
-              <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+              <div className="rounded-2xl border border-border bg-surface-soft p-4">
                 <dt className="text-muted">Pricing</dt>
                 <dd className="mt-1 font-semibold text-foreground">{tool.pricing.startingPrice}</dd>
               </div>
-              <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+              <div className="rounded-2xl border border-border bg-surface-soft p-4">
                 <dt className="text-muted">Free plan</dt>
                 <dd className="mt-1 font-semibold text-foreground">
                   {tool.pricing.hasFree ? tool.pricing.freeDetails : "No free plan"}
                 </dd>
               </div>
-              <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+              <div className="rounded-2xl border border-border bg-surface-soft p-4">
                 <dt className="text-muted">Platforms</dt>
                 <dd className="mt-2 flex flex-wrap gap-2">
                   {tool.platforms.map((platform) => (
@@ -458,7 +458,7 @@ export default async function ToolPage({
                   ))}
                 </dd>
               </div>
-              <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+              <div className="rounded-2xl border border-border bg-surface-soft p-4">
                 <dt className="text-muted">Last updated</dt>
                 <dd className="mt-1 font-semibold text-foreground">{formatDate(tool.lastUpdated)}</dd>
               </div>

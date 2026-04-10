@@ -148,15 +148,15 @@ export function ToolDirectoryShell({
             </div>
 
             <div className="mt-4 grid gap-3 sm:grid-cols-3">
-              <div className="rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3">
+              <div className="rounded-2xl border border-border bg-surface-soft px-4 py-3">
                 <p className="text-xs uppercase tracking-[0.12em] text-muted">Updates (7D)</p>
                 <p className="mt-1 text-2xl font-extrabold text-foreground">{aiBrief.pulse.weeklyUpdates}</p>
               </div>
-              <div className="rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3">
+              <div className="rounded-2xl border border-border bg-surface-soft px-4 py-3">
                 <p className="text-xs uppercase tracking-[0.12em] text-muted">Launches (30D)</p>
                 <p className="mt-1 text-2xl font-extrabold text-foreground">{aiBrief.pulse.monthlyLaunches}</p>
               </div>
-              <div className="rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3">
+              <div className="rounded-2xl border border-border bg-surface-soft px-4 py-3">
                 <p className="text-xs uppercase tracking-[0.12em] text-muted">Funding (30D)</p>
                 <p className="mt-1 text-2xl font-extrabold text-foreground">{aiBrief.pulse.monthlyFunding}</p>
               </div>
@@ -167,7 +167,7 @@ export function ToolDirectoryShell({
                 <Link
                   key={item.id}
                   href={`/news/${item.id}`}
-                  className="group rounded-2xl border border-white/10 bg-white/[0.02] px-3 py-2.5 hover:border-white/20 sm:px-4 sm:py-3"
+                  className="group rounded-2xl border border-border bg-surface-soft px-3 py-2.5 hover:border-border-bright sm:px-4 sm:py-3"
                 >
                   <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:justify-between sm:gap-2">
                     <p className="min-w-0 line-clamp-2 text-sm font-semibold leading-5 text-foreground group-hover:text-cyan sm:line-clamp-1 sm:leading-normal">
@@ -231,7 +231,7 @@ export function ToolDirectoryShell({
       />
 
       {hasFilters ? (
-        <div className="mt-5 rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+        <div className="mt-5 rounded-2xl border border-border bg-surface-soft p-4">
           <p className="text-sm text-muted">
             Showing {searchableTools.length} tools
             {selectedCategory ? ` in ${formatCategoryName(selectedCategory)}` : ""} {pricing !== "all" ? `| ${pricing}` : ""}
@@ -239,7 +239,7 @@ export function ToolDirectoryShell({
           {activeFilterChips.length > 0 ? (
             <div className="mt-3 flex flex-wrap gap-2">
               {activeFilterChips.map((chip) => (
-                <span key={chip} className="rounded-full border border-white/10 bg-white/[0.05] px-3 py-1 text-xs text-muted">
+                <span key={chip} className="rounded-full border border-border bg-surface-soft px-3 py-1 text-xs text-muted">
                   {chip}
                 </span>
               ))}
@@ -254,14 +254,14 @@ export function ToolDirectoryShell({
       <div className="mt-6">
         {searchableTools.length === 0 ? (
           <div className="glass-card rounded-[32px] p-10 text-center">
-            <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-white/10 bg-white/[0.04]">
+            <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-border bg-surface-soft">
               <Bot size={36} className="text-cyan" />
             </div>
             <h2 className="mt-5 text-3xl font-extrabold text-foreground">No tools match your filters</h2>
             <p className="mx-auto mt-3 max-w-xl text-muted">Try removing some filters or search for a broader use case.</p>
             <div className="mt-5 flex flex-wrap justify-center gap-3">
               {tools.slice(0, 3).map((tool) => (
-                <Link key={tool.id} href={`/tools/${tool.id}`} className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm text-muted hover:text-foreground">
+                <Link key={tool.id} href={`/tools/${tool.id}`} className="rounded-full border border-border bg-surface-soft px-4 py-2 text-sm text-muted hover:text-foreground">
                   {tool.name}
                 </Link>
               ))}
@@ -287,10 +287,10 @@ export function ToolDirectoryShell({
         ) : viewMode === "list" ? (
           <div className="grid gap-3">
             {visibleTools.map((tool) => (
-              <article key={tool.id} className="glass-card rounded-[22px] p-4 hover:border-white/20">
+              <article key={tool.id} className="glass-card rounded-[22px] p-4 hover:border-border-bright">
                 <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
                   <div className="flex min-w-0 items-center gap-3">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.05]">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-border bg-surface-soft">
                       <Image src={tool.logo} alt={`${tool.name} logo`} width={22} height={22} sizes="22px" />
                     </div>
                     <div className="min-w-0">
@@ -302,7 +302,7 @@ export function ToolDirectoryShell({
                   </div>
 
                   <div className="flex flex-wrap items-center gap-3 text-sm">
-                    <span className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-muted">
+                    <span className="rounded-full border border-border bg-surface-soft px-3 py-1 text-muted">
                       {formatCategoryName(tool.category)}
                     </span>
                     <span className="text-muted">{tool.rating.overall.toFixed(1)}</span>
